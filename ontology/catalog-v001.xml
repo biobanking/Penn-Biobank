@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri name="http://purl.obolibrary.org/obo/biobank/OBI_subset.owl" uri="external/OBI_subset.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/biobank/import_PATO.owl" uri="external/import_PATO.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/biobank/import_CHEBI.owl" uri="external/import_CHEBI.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/biobank/externalByHand.owl" uri="external/externalByHand.owl"/>
+</catalog>

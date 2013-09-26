@@ -1,0 +1,28 @@
+Old IRI	New ID	Label	Term Type
+http://purl.obolibrary.org/obo/biobank.owl/class_0114	http://purl.obolibrary.org/obo/BIOBANK_0000010	freezer shelf	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0115	http://purl.obolibrary.org/obo/BIOBANK_0000011	discarding	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0089	http://purl.obolibrary.org/obo/BIOBANK_0000012	human subject recuiter role	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0111	http://purl.obolibrary.org/obo/BIOBANK_0000013	cryovial box	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0110	http://purl.obolibrary.org/obo/BIOBANK_0000014	trash container	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0113	http://purl.obolibrary.org/obo/BIOBANK_0000015	freezer rack	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0112	http://purl.obolibrary.org/obo/BIOBANK_0000016	blood spot card box	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0092	http://purl.obolibrary.org/obo/BIOBANK_0000017	data confirm questionnaire	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0091	http://purl.obolibrary.org/obo/BIOBANK_0000018	form filling	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0094	http://purl.obolibrary.org/obo/BIOBANK_0000019	filled patient questionnaire	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0093	http://purl.obolibrary.org/obo/BIOBANK_0000020	patient questionnaire	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0101	http://purl.obolibrary.org/obo/BIOBANK_0000021	collection packet with specimen and information material	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0102	http://purl.obolibrary.org/obo/BIOBANK_0000022	blood additive role	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0090	http://purl.obolibrary.org/obo/BIOBANK_0000023	lab technician role	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0100	http://purl.obolibrary.org/obo/BIOBANK_0000024	collection packet with specimen	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0099	http://purl.obolibrary.org/obo/BIOBANK_0000025	empty collection packet	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0096	http://purl.obolibrary.org/obo/BIOBANK_0000026	consent form	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0095	http://purl.obolibrary.org/obo/BIOBANK_0000027	filled data confirm questionnaire	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0098	http://purl.obolibrary.org/obo/BIOBANK_0000028	collection packet	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0097	http://purl.obolibrary.org/obo/BIOBANK_0000029	filled consent form	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0106	http://purl.obolibrary.org/obo/BIOBANK_0000030	blood spot card	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0105	http://purl.obolibrary.org/obo/BIOBANK_0000031	cryovial	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0104	http://purl.obolibrary.org/obo/BIOBANK_0000032	vacutainer	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0103	http://purl.obolibrary.org/obo/BIOBANK_0000033	specimen receipt	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0109	http://purl.obolibrary.org/obo/BIOBANK_0000034	adding specimen into a container	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0108	http://purl.obolibrary.org/obo/BIOBANK_0000035	blood spotting	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0107	http://purl.obolibrary.org/obo/BIOBANK_0000036	buffy coat specimen	Class
