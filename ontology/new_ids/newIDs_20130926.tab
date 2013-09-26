@@ -1,0 +1,5 @@
+Old IRI	New ID	Label	Term Type
+http://purl.obolibrary.org/obo/biobank.owl/class_0118	http://purl.obolibrary.org/obo/BIOBANK_0000037	has maximum capacity	ObjectProperty
+http://purl.obolibrary.org/obo/biobank.owl/class_0119	http://purl.obolibrary.org/obo/BIOBANK_0000038	has actual load	ObjectProperty
+http://purl.obolibrary.org/obo/biobank.owl/class_0116	http://purl.obolibrary.org/obo/BIOBANK_0000039	blood specimen on blood spot card	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0117	http://purl.obolibrary.org/obo/BIOBANK_0000040	empty collection packet with unfilled information material	Class
