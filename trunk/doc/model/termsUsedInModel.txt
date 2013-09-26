@@ -1,0 +1,44 @@
+Homo sapiens	http://purl.obolibrary.org/obo/NCBITaxon_9606 
+blood	http://purl.obolibrary.org/obo/UBERON_0000178
+blood plasma specimen	http://purl.obolibrary.org/obo/OBI_0100016
+blood specimen	http://purl.obolibrary.org/obo/OBI_0000655
+biological sex	http://purl.obolibrary.org/obo/PATO_0000047
+blood serum specimen	http://purl.obolibrary.org/obo/OBI_0100017
+conditional specification	http://purl.obolibrary.org/obo/IAO_0000001
+clinical history	http://purl.obolibrary.org/obo/OGMS_0000015
+centrifugation	http://purl.obolibrary.org/obo/OBI_0302886 
+container	http://purl.obolibrary.org/obo/OBI_0000967 
+document	http://purl.obolibrary.org/obo/IAO_0000310 
+document editing	http://purl.obolibrary.org/obo/OBI_0302908
+device	http://purl.obolibrary.org/obo/OBI_0000968 
+human subject enrollment	http://purl.obolibrary.org/obo/OBI_0600004 
+informed consent process	http://purl.obolibrary.org/obo/OBI_0000810 
+investigation agent role	http://purl.obolibrary.org/obo/OBI_0000202 
+measurement datum	http://purl.obolibrary.org/obo/IAO_0000109
+material information bearer	http://purl.obolibrary.org/obo/IAO_0000178
+material entity	http://purl.obolibrary.org/obo/BFO_0000040 
+material processing	 http://purl.obolibrary.org/obo/OBI_0000094 
+material portioning	http://purl.obolibrary.org/obo/OBI_0600018 
+molecular entity	http://purl.obolibrary.org/obo/CHEBI_23367 
+material to be added role	http://purl.obolibrary.org/obo/OBI_0000319 
+organization	 http://purl.obolibrary.org/obo/OBI_0000245 
+objective specification	 http://purl.obolibrary.org/obo/IAO_0000005 
+phenotype	http://purl.obolibrary.org/obo/OGMS_0000023
+participant under investigation role	http://purl.obolibrary.org/obo/OBI_0000097
+population	http://purl.obolibrary.org/obo/OBI_0000181	
+processed specimen	http://purl.obolibrary.org/obo/OBI_0000953
+pooling specimen	 http://purl.obolibrary.org/obo/OBI_0600016 
+protocol	http://purl.obolibrary.org/obo/OBI_0000272
+questionnaire	http://purl.obolibrary.org/obo/OBI_0001000
+storage	http://purl.obolibrary.org/obo/OBI_0302893 
+study design execution	http://purl.obolibrary.org/obo/OBI_0000471 	
+specimen with known storage state	http://purl.obolibrary.org/obo/OBI_0001472	all subclasses
+specimen collection	http://purl.obolibrary.org/obo/OBI_0000659 
+specimen	http://purl.obolibrary.org/obo/OBI_0100051 
+study design	http://purl.obolibrary.org/obo/OBI_0500000 
+volume	http://purl.obolibrary.org/obo/PATO_0000918
+worker role	http://purl.obolibrary.org/obo/OBI_0000116
+selection rule	http://purl.obolibrary.org/obo/OBI_0001755 (not in release)
+quantity	http://purl.obolibrary.org/obo/PATO_0000819
+weight	http://purl.obolibrary.org/obo/PATO_0000128 
+height	http://purl.obolibrary.org/obo/PATO_0000119
