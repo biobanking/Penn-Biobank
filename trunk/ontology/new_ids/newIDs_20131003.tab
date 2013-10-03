@@ -1,0 +1,15 @@
+Old IRI	New ID	Label	Term Type
+http://purl.obolibrary.org/obo/biobank.owl/class_0136	http://purl.obolibrary.org/obo/BIOBANK_0000041	duration time of smoking regularly	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0137	http://purl.obolibrary.org/obo/BIOBANK_0000042	average daily use of cigarette datum	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0129	http://purl.obolibrary.org/obo/BIOBANK_0000043	nicotine patch	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0127	http://purl.obolibrary.org/obo/BIOBANK_0000044	cigarette	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0128	http://purl.obolibrary.org/obo/BIOBANK_0000045	nicotine gum or lozenge	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0125	http://purl.obolibrary.org/obo/BIOBANK_0000046	cigar	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0126	http://purl.obolibrary.org/obo/BIOBANK_0000047	chewing tobacco	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0124	http://purl.obolibrary.org/obo/BIOBANK_0000048	nicotine material	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0131	http://purl.obolibrary.org/obo/BIOBANK_0000049	pipe	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0130	http://purl.obolibrary.org/obo/BIOBANK_0000050	nicotine e-cigarette	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0133	http://purl.obolibrary.org/obo/BIOBANK_0000051	smoking start date	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0132	http://purl.obolibrary.org/obo/BIOBANK_0000052	pipe smoking behavior	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0135	http://purl.obolibrary.org/obo/BIOBANK_0000053	duration time of smoking	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0134	http://purl.obolibrary.org/obo/BIOBANK_0000054	smoking end date	Class
