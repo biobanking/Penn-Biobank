@@ -19,30 +19,9 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/biobank/OBI_subset.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/biobank/externalByHand.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/biobank/import_CHEBI.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/biobank/import_OBO.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/biobank/import_PATO.owl"/>
     </owl:Ontology>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
     
 
 
@@ -375,13 +354,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#lacks_part"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000178"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/cl#lacks_part"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000178"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A collection packet which only contains container that will be used for holding specimen</obo:IAO_0000115>
@@ -517,13 +496,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000085"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000399"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000370"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000085"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000370"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000399"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A device that is made to collect, ship and store blood specimen in an easy and inexpensive way.</obo:IAO_0000115>
@@ -625,14 +604,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BIOBANK_0000034"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000655"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BIOBANK_0000030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BIOBANK_0000030"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000655"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A collecting specimen from organism that collects blood from organism and spot the blood on the blood spot card.</obo:IAO_0000115>
@@ -674,14 +653,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000655"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000082"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BIOBANK_0000030"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BIOBANK_0000035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BIOBANK_0000035"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000082"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BIOBANK_0000030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A specimen that located in a blood spot card via blood spotting process.</rdfs:comment>
@@ -751,12 +730,6 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000979">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000085"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000370"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BIOBANK_0000010"/>
             </owl:Restriction>
@@ -765,6 +738,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BIOBANK_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000085"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000370"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -787,9 +766,203 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/biobank.owl/class_0124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/biobank.owl/class_0124">
+        <rdfs:label xml:lang="en">nicotine material</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000047"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18723"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+        <obo:IAO_0000115>A processed materialmaterial entity that contains nicotine.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/biobank.owl/class_0125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/biobank.owl/class_0125">
+        <rdfs:label xml:lang="en">cigar</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/biobank.owl/class_0124"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/biobank.owl/class_0126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/biobank.owl/class_0126">
+        <rdfs:label xml:lang="en">chewing tobacco</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/biobank.owl/class_0124"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/biobank.owl/class_0127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/biobank.owl/class_0127">
+        <rdfs:label xml:lang="en">cigarette</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/biobank.owl/class_0124"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/biobank.owl/class_0128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/biobank.owl/class_0128">
+        <rdfs:label xml:lang="en">nicotine gum or lozenge</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/biobank.owl/class_0124"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/biobank.owl/class_0129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/biobank.owl/class_0129">
+        <rdfs:label xml:lang="en">nicotine patch</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/biobank.owl/class_0124"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/biobank.owl/class_0130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/biobank.owl/class_0130">
+        <rdfs:label xml:lang="en">nicotine e-cigarette</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/biobank.owl/class_0124"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/biobank.owl/class_0131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/biobank.owl/class_0131">
+        <rdfs:label xml:lang="en">pipe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000085"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000370"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/biobank.owl/class_0132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/biobank.owl/class_0132">
+        <rdfs:label xml:lang="en">pipe smoking behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004318"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/biobank.owl/class_0131"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/biobank.owl/class_0133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/biobank.owl/class_0133">
+        <rdfs:label xml:lang="en">smoking start date</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004318"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/biobank.owl/class_0134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/biobank.owl/class_0134">
+        <rdfs:label xml:lang="en">smoking end date</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004318"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/biobank.owl/class_0135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/biobank.owl/class_0135">
+        <rdfs:label xml:lang="en">duration time of smoking</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000413"/>
+                <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004318"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/biobank.owl/class_0136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/biobank.owl/class_0136">
+        <rdfs:label xml:lang="en">duration time of smoking regularly</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/biobank.owl/class_0135"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/biobank.owl/class_0137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/biobank.owl/class_0137">
+        <rdfs:label xml:lang="en">average daily use of cigarette datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004318 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0004318">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/biobank.owl/class_0124"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004774 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0004774">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/biobank.owl/class_0126"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 1.3.4.992) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
 
