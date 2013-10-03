@@ -9,11 +9,14 @@ CHEBI
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/CHEBI_42191
 http://purl.obolibrary.org/obo/CHEBI_53258
+http://purl.obolibrary.org/obo/CHEBI_18723
 
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/CHEBI_23367 #CHEBI:molecular entity
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #BFO:material entity
+http://purl.obolibrary.org/obo/CHEBI_18723
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367
 
 [Source term retrieval setting]
 includeNoIntermediates
