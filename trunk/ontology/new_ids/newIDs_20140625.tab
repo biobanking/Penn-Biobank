@@ -1,0 +1,4 @@
+Old IRI	New ID	Label	Term Type
+http://purl.obolibrary.org/obo/biobank.owl/class_0138	http://purl.obolibrary.org/obo/BIOBANK_0000055	pipe tobacco	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0139	http://purl.obolibrary.org/obo/BIOBANK_0000056	tobacco	Class
+http://purl.obolibrary.org/obo/biobank.owl/class_0140	http://purl.obolibrary.org/obo/BIOBANK_0000057	tobacco material	Class
