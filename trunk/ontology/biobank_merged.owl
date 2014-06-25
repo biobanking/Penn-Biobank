@@ -12,8 +12,8 @@
 ]>
 
 
-<rdf:RDF xmlns="&obo;biobank_merged.owl#"
-     xml:base="&obo;biobank_merged.owl"
+<rdf:RDF xmlns="&obo;biobank/biobank_merged.owl#"
+     xml:base="&obo;biobank/biobank_merged.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -21,10 +21,10 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="&obo;biobank_merged.owl">
-        <rdfs:comment>merged file is generated from SVN revision 19</rdfs:comment>
+    <owl:Ontology rdf:about="&obo;biobank/biobank_merged.owl">
         <dc:contributor>Chris Stoeckert</dc:contributor>
         <dc:contributor>Jie Zheng</dc:contributor>
+        <rdfs:comment>a merged file generated from SVN revision 24</rdfs:comment>
     </owl:Ontology>
     
 
@@ -349,6 +349,19 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <owl:annotatedTarget rdf:resource="&owl;TransitiveProperty"/>
     </owl:Axiom>
     <owl:Axiom>
+        <rdfs:label xml:lang="en">domain of part of</rdfs:label>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000001"/>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000050"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010001"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;domain"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000001"/>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000050"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010002"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000050"/>
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000082"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010082"/>
@@ -359,19 +372,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000051"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010003"/>
         <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000001"/>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000050"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010002"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <rdfs:label xml:lang="en">domain of part of</rdfs:label>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000001"/>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000050"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010001"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;domain"/>
     </owl:Axiom>
     
 
@@ -385,16 +385,16 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:IAO_0000118 xml:lang="en">has_part</obo:IAO_0000118>
     </owl:ObjectProperty>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000050"/>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000051"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010003"/>
-        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000051"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010013"/>
         <owl:annotatedProperty rdf:resource="&rdf;type"/>
         <owl:annotatedTarget rdf:resource="&owl;TransitiveProperty"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000050"/>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000051"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010003"/>
+        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
     </owl:Axiom>
     
 
@@ -412,28 +412,16 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000070"/>
     </owl:ObjectProperty>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000004"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000052"/>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000070"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010041"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subPropertyOf"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010043"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000052"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010014"/>
         <owl:annotatedProperty rdf:resource="&rdf;type"/>
         <owl:annotatedTarget rdf:resource="&owl;FunctionalProperty"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000052"/>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000070"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010081"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subPropertyOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000004"/>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000052"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010043"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000005"/>
@@ -446,6 +434,18 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000053"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010009"/>
         <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000052"/>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000070"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010041"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subPropertyOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000052"/>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000070"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010081"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subPropertyOf"/>
     </owl:Axiom>
     
 
@@ -467,16 +467,16 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <owl:annotatedProperty rdf:resource="&rdfs;domain"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000005"/>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000053"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010008"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000052"/>
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000053"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010009"/>
         <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000005"/>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000053"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010008"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
     </owl:Axiom>
     
 
@@ -508,10 +508,10 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <owl:inverseOf rdf:resource="&obo;BFO_0000054"/>
     </owl:ObjectProperty>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000007"/>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000054"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000055"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010035"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;domain"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010037"/>
+        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000017"/>
@@ -520,10 +520,10 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <owl:annotatedProperty rdf:resource="&rdfs;range"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000054"/>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000007"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000055"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010037"/>
-        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010035"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;domain"/>
     </owl:Axiom>
     
 
@@ -563,10 +563,22 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000056"/>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000057"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010006"/>
+        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000007"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000057"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010004"/>
         <owl:annotatedProperty rdf:resource="&rdfs;domain"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000002"/>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000057"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010005"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000057"/>
@@ -576,18 +588,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
             <rdf:Description rdf:about="&obo;BFO_0000055"/>
             <rdf:Description rdf:about="&obo;BFO_0000052"/>
         </owl:annotatedTarget>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000002"/>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000057"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010005"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000056"/>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000057"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010006"/>
-        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
     </owl:Axiom>
     
 
@@ -601,6 +601,12 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <rdfs:domain rdf:resource="&obo;BFO_0000031"/>
     </owl:ObjectProperty>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000058"/>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000059"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010034"/>
+        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000031"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000058"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010044"/>
@@ -611,12 +617,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <owl:annotatedSource rdf:resource="&obo;BFO_0000058"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010045"/>
         <owl:annotatedProperty rdf:resource="&rdfs;range"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000058"/>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000059"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010034"/>
-        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
     </owl:Axiom>
     
 
@@ -631,10 +631,10 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <owl:inverseOf rdf:resource="&obo;BFO_0000058"/>
     </owl:ObjectProperty>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000020"/>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000031"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000059"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010032"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;domain"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010033"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000058"/>
@@ -643,10 +643,10 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000031"/>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000020"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000059"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010033"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010032"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;domain"/>
     </owl:Axiom>
     
 
@@ -662,15 +662,15 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
     </owl:ObjectProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000060"/>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000062"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010022"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subPropertyOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000060"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010030"/>
         <owl:annotatedProperty rdf:resource="&rdf;type"/>
         <owl:annotatedTarget rdf:resource="&owl;FunctionalProperty"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000060"/>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000062"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010022"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subPropertyOf"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000060"/>
@@ -693,6 +693,24 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000063"/>
     </owl:ObjectProperty>
     <owl:Axiom>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000061"/>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000063"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010023"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subPropertyOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000060"/>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000061"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010017"/>
+        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000061"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010031"/>
+        <owl:annotatedProperty rdf:resource="&rdf;type"/>
+        <owl:annotatedTarget rdf:resource="&owl;FunctionalProperty"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000007"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000061"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010016"/>
@@ -703,24 +721,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <owl:annotatedSource rdf:resource="&obo;BFO_0000061"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010015"/>
         <owl:annotatedProperty rdf:resource="&rdfs;domain"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000061"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010031"/>
-        <owl:annotatedProperty rdf:resource="&rdf;type"/>
-        <owl:annotatedTarget rdf:resource="&owl;FunctionalProperty"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000060"/>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000061"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010017"/>
-        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000061"/>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000063"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010023"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subPropertyOf"/>
     </owl:Axiom>
     
 
@@ -734,16 +734,16 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <obo:IAO_0000118 xml:lang="en">preceded_by</obo:IAO_0000118>
     </owl:ObjectProperty>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000062"/>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000063"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010021"/>
-        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000062"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010029"/>
         <owl:annotatedProperty rdf:resource="&rdf;type"/>
         <owl:annotatedTarget rdf:resource="&owl;TransitiveProperty"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000062"/>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000063"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010021"/>
+        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
     </owl:Axiom>
     
 
@@ -758,16 +758,16 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <owl:inverseOf rdf:resource="&obo;BFO_0000062"/>
     </owl:ObjectProperty>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000007"/>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000063"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010020"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000062"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000063"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010021"/>
         <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000007"/>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000063"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010020"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000063"/>
@@ -793,16 +793,16 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000057"/>
     </owl:ObjectProperty>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000064"/>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000065"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010012"/>
-        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000057"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000064"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010068"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subPropertyOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000064"/>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000065"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010012"/>
+        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
     </owl:Axiom>
     
 
@@ -818,28 +818,28 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <owl:inverseOf rdf:resource="&obo;BFO_0000064"/>
     </owl:ObjectProperty>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000056"/>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000065"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010069"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subPropertyOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000064"/>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000065"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010012"/>
-        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000007"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000065"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010011"/>
         <owl:annotatedProperty rdf:resource="&rdfs;range"/>
     </owl:Axiom>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000056"/>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000065"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010069"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subPropertyOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000002"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000065"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010010"/>
         <owl:annotatedProperty rdf:resource="&rdfs;domain"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000064"/>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000065"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010012"/>
+        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
     </owl:Axiom>
     
 
@@ -853,25 +853,19 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <rdfs:domain rdf:resource="&obo;BFO_0000007"/>
         <owl:inverseOf rdf:resource="&obo;BFO_0000067"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000050"/>
             <rdf:Description rdf:about="&obo;BFO_0000066"/>
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
         </owl:propertyChainAxiom>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;BFO_0000066"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
+            <rdf:Description rdf:about="&obo;BFO_0000066"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000004"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000066"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010025"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000007"/>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000066"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010024"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;domain"/>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000067"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010026"/>
+        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000066"/>
@@ -883,6 +877,12 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         </owl:annotatedTarget>
     </owl:Axiom>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000004"/>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000066"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010025"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000066"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010018"/>
         <owl:annotatedProperty rdf:resource="&owl;propertyChainAxiom"/>
@@ -892,10 +892,10 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         </owl:annotatedTarget>
     </owl:Axiom>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000007"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000066"/>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000067"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010026"/>
-        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010024"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;domain"/>
     </owl:Axiom>
     
 
@@ -925,6 +925,12 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000056"/>
     </owl:ObjectProperty>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000068"/>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000077"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010066"/>
+        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000007"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000068"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010048"/>
@@ -935,12 +941,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <owl:annotatedSource rdf:resource="&obo;BFO_0000068"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010046"/>
         <owl:annotatedProperty rdf:resource="&rdfs;domain"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000068"/>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000077"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010066"/>
-        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000056"/>
@@ -967,6 +967,12 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <owl:annotatedProperty rdf:resource="&rdfs;range"/>
     </owl:Axiom>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000056"/>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000069"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010061"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subPropertyOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000069"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000078"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010067"/>
@@ -977,12 +983,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <owl:annotatedSource rdf:resource="&obo;BFO_0000069"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010047"/>
         <owl:annotatedProperty rdf:resource="&rdfs;domain"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000056"/>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000069"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010061"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subPropertyOf"/>
     </owl:Axiom>
     
 
@@ -997,16 +997,16 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <rdfs:domain rdf:resource="&obo;BFO_0000020"/>
     </owl:ObjectProperty>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000020"/>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000070"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010077"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;domain"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000004"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000070"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010079"/>
         <owl:annotatedProperty rdf:resource="&rdfs;range"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000020"/>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000070"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010077"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;domain"/>
     </owl:Axiom>
     
 
@@ -1041,16 +1041,16 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000051"/>
     </owl:ObjectProperty>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000072"/>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000074"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010054"/>
-        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000051"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000072"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010056"/>
         <owl:annotatedProperty rdf:resource="&rdfs;subPropertyOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000072"/>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000074"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010054"/>
+        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
     </owl:Axiom>
     
 
@@ -1067,10 +1067,10 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <owl:inverseOf rdf:resource="&obo;BFO_0000071"/>
     </owl:ObjectProperty>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000071"/>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000040"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000073"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010055"/>
-        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010052"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000040"/>
@@ -1085,10 +1085,10 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <owl:annotatedProperty rdf:resource="&rdfs;subPropertyOf"/>
     </owl:Axiom>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000040"/>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000071"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000073"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010052"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010055"/>
+        <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
     </owl:Axiom>
     
 
@@ -1105,6 +1105,18 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <owl:inverseOf rdf:resource="&obo;BFO_0000072"/>
     </owl:ObjectProperty>
     <owl:Axiom>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000007"/>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000074"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010051"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000007"/>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000074"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010050"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;domain"/>
+    </owl:Axiom>
+    <owl:Axiom>
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000050"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000074"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010059"/>
@@ -1115,18 +1127,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <owl:annotatedSource rdf:resource="&obo;BFO_0000074"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010054"/>
         <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000007"/>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000074"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010050"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;domain"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000007"/>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000074"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010051"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;range"/>
     </owl:Axiom>
     
 
@@ -1174,16 +1174,16 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <owl:inverseOf rdf:resource="&obo;BFO_0000068"/>
     </owl:ObjectProperty>
     <owl:Axiom>
-        <owl:annotatedTarget rdf:resource="&obo;BFO_0000057"/>
-        <owl:annotatedSource rdf:resource="&obo;BFO_0000077"/>
-        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010065"/>
-        <owl:annotatedProperty rdf:resource="&rdfs;subPropertyOf"/>
-    </owl:Axiom>
-    <owl:Axiom>
         <owl:annotatedTarget rdf:resource="&obo;BFO_0000068"/>
         <owl:annotatedSource rdf:resource="&obo;BFO_0000077"/>
         <obo:IAO_0010000 rdf:resource="&obo;BFO_0010066"/>
         <owl:annotatedProperty rdf:resource="&owl;inverseOf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:resource="&obo;BFO_0000057"/>
+        <owl:annotatedSource rdf:resource="&obo;BFO_0000077"/>
+        <obo:IAO_0010000 rdf:resource="&obo;BFO_0010065"/>
+        <owl:annotatedProperty rdf:resource="&rdfs;subPropertyOf"/>
     </owl:Axiom>
     
 
@@ -1374,17 +1374,6 @@ https://sourceforge.net/tracker/?func=detail&amp;aid=3603413&amp;group_id=177891
         <rdfs:label xml:lang="en">has actual load</rdfs:label>
         <rdfs:range rdf:resource="&obo;IAO_0000109"/>
         <rdfs:domain rdf:resource="&obo;OBI_0000967"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ERO_0000979 -->
-
-    <owl:ObjectProperty rdf:about="&obo;ERO_0000979">
-        <rdfs:label rdf:datatype="&xsd;string">freezer</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">An instrument that consists of a thermally insulated compartment, cabinet, or room in which a subfreezing temperature is maintained for the rapid freezing and storing of perishable items.</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="&xsd;string">freezer</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="&obo;ero.owl"/>
     </owl:ObjectProperty>
     
 
@@ -1619,17 +1608,6 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">RO</oboInOwl:hasOBONamespace>
         <obo:IAO_0000424 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/BFO_0000051 exactly 0 ?Y</obo:IAO_0000424>
         <obo:IAO_0000412 rdf:resource="&obo;cl.owl"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://vivoweb.org/ontology/core#Laboratory -->
-
-    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#Laboratory">
-        <rdfs:label rdf:datatype="&xsd;string">Laboratory</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">An organizational unit (as opposed to the physical facility) that performs research, provides services, or processes materials</obo:IAO_0000115>
-        <obo:IAO_0000111 rdf:datatype="&xsd;string">Laboratory</obo:IAO_0000111>
-        <obo:IAO_0000412 rdf:resource="&obo;ero.owl"/>
     </owl:ObjectProperty>
     
 
@@ -2038,12 +2016,6 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -2056,6 +2028,12 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A planned process that get rid of a material that is no longer useful or desirable.</obo:IAO_0000115>
@@ -2302,13 +2280,13 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;cl#lacks_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0100051"/>
+                <owl:someValuesFrom rdf:resource="&obo;IAO_0000178"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;cl#lacks_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;IAO_0000178"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0100051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A collection packet which only contains container that will be used for holding specimen</obo:IAO_0000115>
@@ -2319,7 +2297,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/BIOBANK_0000026 -->
 
     <owl:Class rdf:about="&obo;BIOBANK_0000026">
-        <rdfs:label xml:lang="en">consent form</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_consent form</rdfs:label>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
         <obo:IAO_0000115>A document that describes the study in plain language and is used to obtain patient or his/her parent/guardian permission to use specimen collected from him/her in which studys and share information with which providers. </obo:IAO_0000115>
         <obo:IAO_0000116>replaced by
@@ -2389,7 +2367,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/BIOBANK_0000029 -->
 
     <owl:Class rdf:about="&obo;BIOBANK_0000029">
-        <rdfs:label xml:lang="en">filled consent form</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_filled consent form</rdfs:label>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
         <obo:IAO_0000116>replaced by &apos;informed consent form&apos; http://purl.obolibrary.org/obo/ICO_0000001</obo:IAO_0000116>
         <obo:IAO_0000115>An edited document which is output of a form filling process with input document, consent form, and participants, patient and human subject recruiter.</obo:IAO_0000115>
@@ -2406,13 +2384,13 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000085"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000370"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000399"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000085"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000399"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000370"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A device that is made to collect, ship and store blood specimen in an easy and inexpensive way.</obo:IAO_0000115>
@@ -2563,14 +2541,14 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000655"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
-                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000030"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000035"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A specimen that located in a blood spot card via blood spotting process.</rdfs:comment>
@@ -2661,14 +2639,14 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000047"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_18723"/>
+                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="&obo;biobank.owl/class_0139"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_18723"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2704,7 +2682,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="&obo;biobank.owl/class_0139"/>
+                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2719,7 +2697,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="&obo;biobank.owl/class_0139"/>
+                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2733,7 +2711,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;BFO_0000040"/>
+                    <rdf:Description rdf:about="&obo;OBI_0000047"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                         <owl:someValuesFrom rdf:resource="&obo;CHEBI_18723"/>
@@ -2800,7 +2778,7 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;biobank.owl/class_0138"/>
+                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2839,6 +2817,50 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
                 <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004318"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000055 -->
+
+    <owl:Class rdf:about="&obo;BIOBANK_0000055">
+        <rdfs:label xml:lang="en">pipe tobacco</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000047"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000056 -->
+
+    <owl:Class rdf:about="&obo;BIOBANK_0000056">
+        <rdfs:label xml:lang="en">tobacco</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2759"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BIOBANK_0000057 -->
+
+    <owl:Class rdf:about="&obo;BIOBANK_0000057">
+        <rdfs:label xml:lang="en">tobacco material</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OBI_0000047"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                        <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000056"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000118>tobacco product</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -2999,12 +3021,6 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000010"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3012,6 +3028,12 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000085"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0000370"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An instrument that consists of a thermally insulated compartment, cabinet, or room in which a subfreezing temperature is maintained for the rapid freezing and storing of perishable items.</obo:IAO_0000115>
@@ -3141,9 +3163,9 @@ purpose of a study; support of hypothesis, discovery of new information</obo:IAO
         <obo:IAO_0000232>9/22/11 BP: changed the rdfs:label for this class from &apos;label&apos; to &apos;datum label&apos; to convey that this class is not intended to cover all kinds of labels (stickers, radiolabels, etc.), and not even all kind of textual labels, but rather the kind of labels occuring in a datum. 
 </obo:IAO_0000232>
         <obo:IAO_0000117 xml:lang="en">GROUP: IAO</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">data item label</obo:IAO_0000111>
         <obo:IAO_0000118>datum label</obo:IAO_0000118>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is part of some data item and is used to partially define the denotation of that data item.</obo:IAO_0000115>
-        <obo:IAO_0000111 xml:lang="en">data item label</obo:IAO_0000111>
         <obo:IAO_0000116 xml:lang="en">http://www.golovchenko.org/cgi-bin/wnsearch?q=label#4n</obo:IAO_0000116>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
     </owl:Class>
@@ -3418,14 +3440,14 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0001938"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0001933"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000070"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000070"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0001938"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0001933"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000116 xml:lang="en">2/2/2009 is_specified_output of some assay?</obo:IAO_0000116>
@@ -3934,13 +3956,19 @@ objectives is a planned process.</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000338"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;IAO_0000572"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000338"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000471"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3957,12 +3985,6 @@ objectives is a planned process.</obo:IAO_0000116>
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000471"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000232 rdf:datatype="&xsd;string">Could add specific objective specification</obo:IAO_0000232>
@@ -3987,14 +4009,14 @@ editor = PRS</obo:IAO_0000232>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
-                <owl:allValuesFrom rdf:resource="&obo;OBI_0000070"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000052"/>
+                <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000052"/>
-                <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
+                <owl:allValuesFrom rdf:resource="&obo;OBI_0000070"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000232 rdf:datatype="&xsd;string">Feb 10, 2009.  changes after discussion at OBI Consortium Workshop Feb 2-6, 2009.  accepted as core term.</obo:IAO_0000232>
@@ -4029,22 +4051,6 @@ editor = PRS</obo:IAO_0000232>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;BFO_0000040"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
-                                <owl:someValuesFrom rdf:resource="&obo;OBI_0000067"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -4063,6 +4069,22 @@ editor = PRS</obo:IAO_0000232>
                                         </owl:intersectionOf>
                                     </owl:Class>
                                 </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;BFO_0000040"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                                <owl:someValuesFrom rdf:resource="&obo;OBI_0000067"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -4164,14 +4186,14 @@ In regard to the statement that reagents are &apos;distinct&apos; from the speci
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:allValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="&obo;BFO_0000040"/>
+                <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4182,8 +4204,8 @@ In regard to the statement that reagents are &apos;distinct&apos; from the speci
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 rdf:datatype="&xsd;string">A cell lysis, production of a cloning vector, creating a buffer.</obo:IAO_0000112>
@@ -4459,12 +4481,6 @@ for now.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000652"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000319"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -4497,6 +4513,12 @@ for now.</obo:IAO_0000116>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0000444"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000319"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="&xsd;string">BP</obo:IAO_0000117>
@@ -4730,12 +4752,6 @@ for now.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000034"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000079"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000047"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000054"/>
                 <owl:allValuesFrom>
                     <owl:Restriction>
@@ -4743,6 +4759,12 @@ for now.</obo:IAO_0000116>
                         <owl:someValuesFrom rdf:resource="&obo;IAO_0000109"/>
                     </owl:Restriction>
                 </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000079"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 rdf:datatype="&xsd;string">A glucometer measures blood glucose concentration, the glucometer has a measure function.</obo:IAO_0000112>
@@ -4846,13 +4868,13 @@ for now.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000094"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4874,14 +4896,14 @@ for now.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0001479"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000112"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0600005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0600005"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000112"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4918,14 +4940,14 @@ for now.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0100051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0100051"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000232 rdf:datatype="&xsd;string">5/31/2012: This process is not necessarily an acquisition, as specimens may be collected from materials already in posession</obo:IAO_0000232>
@@ -5040,6 +5062,12 @@ for now.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
                 <owl:someValuesFrom>
                     <owl:Restriction>
@@ -5047,12 +5075,6 @@ for now.</obo:IAO_0000116>
                         <owl:someValuesFrom rdf:resource="&obo;OBI_0000202"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000116 rdf:datatype="&xsd;string">09/28/2009 Alan Ruttenberg: This is made a subclass of the higher level processual entity in BFO because I don&apos;t want to take a stand on whether it is a process aggregate. Analogous to the situation with Material entity.</obo:IAO_0000116>
@@ -5138,12 +5160,6 @@ for now.</obo:IAO_0000116>
         <rdfs:label rdf:datatype="&xsd;string">freezing storage</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0302893"/>
         <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000806"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
@@ -5176,6 +5192,12 @@ for now.</obo:IAO_0000116>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000806"/>
+            </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000116 rdf:datatype="&xsd;string">2010/3/3 Alan Ruttenberg: There is a question of whether we should have a separate objective to &quot;prepare for maintenance&quot;
 2014/2/3 OBI dev call: &quot;prepare for maintenance&quot; is a separate process. For example, &apos;freezing&apos; and &apos;flash freezing&apos; are defined and can be used to produce frozen material for storage.
@@ -5412,13 +5434,13 @@ A blood specimen that has been centrifuged to obtain the white blood cells.</obo
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000968"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BIOBANK_0000037"/>
+                <owl:onProperty rdf:resource="&obo;BIOBANK_0000038"/>
                 <owl:someValuesFrom rdf:resource="&obo;IAO_0000109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BIOBANK_0000038"/>
+                <owl:onProperty rdf:resource="&obo;BIOBANK_0000037"/>
                 <owl:someValuesFrom rdf:resource="&obo;IAO_0000109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5438,14 +5460,14 @@ A blood specimen that has been centrifuged to obtain the white blood cells.</obo
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000047"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000085"/>
-                <owl:someValuesFrom rdf:resource="&obo;BFO_0000034"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000094"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000085"/>
+                <owl:someValuesFrom rdf:resource="&obo;BFO_0000034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000116 rdf:datatype="&xsd;string">2012-12-17 JAO: In common lab usage, there is a distinction made between devices and reagents that is difficult to model. Therefore we have chosen to specifically exclude reagents from the definition of &quot;device&quot;, and are enumerating the types of roles that a reagent can perform.
@@ -5494,12 +5516,6 @@ In the examples above, a reagent is an operational component of a device, but th
         <rdfs:subClassOf rdf:resource="&obo;OBI_0302893"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000806"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -5509,6 +5525,12 @@ In the examples above, a reagent is an operational component of a device, but th
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000806"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 rdf:datatype="&xsd;string"></obo:IAO_0000112>
@@ -5718,14 +5740,14 @@ JZ: based on textual definition of edited document, it can be defined as N&amp;S
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000124"/>
-                <owl:someValuesFrom rdf:resource="&obo;IAO_0000027"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000338"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000338"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000124"/>
+                <owl:someValuesFrom rdf:resource="&obo;IAO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An information content entity that is inferred from data.</obo:IAO_0000115>
@@ -5789,13 +5811,13 @@ The following are NOT conclusions based on data: data themselves; results from p
         <rdfs:subClassOf rdf:resource="&obo;OBI_0001933"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;IAO_0000039"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0001937"/>
                 <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0001937"/>
+                <owl:onProperty rdf:resource="&obo;IAO_0000039"/>
                 <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minCardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -5828,6 +5850,17 @@ The following are NOT conclusions based on data: data themselves; results from p
         <rdfs:label xml:lang="en">blood plasma specimen</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000953"/>
         <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;BFO_0000040"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000112"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
                 <owl:someValuesFrom>
@@ -5842,17 +5875,6 @@ The following are NOT conclusions based on data: data themselves; results from p
                     </owl:Class>
                 </owl:someValuesFrom>
             </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;BFO_0000040"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000112"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Philippe Rocca-Serra</obo:IAO_0000117>
         <obo:IAO_0000116 xml:lang="en">03/21/2010: BP, blood plasma is defined as the output of certain separation processes, so this is in the domain of OBI, not FMA.</obo:IAO_0000116>
@@ -5980,8 +6002,8 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000047"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0600024"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000643"/>
+                <owl:allValuesFrom rdf:resource="&obo;CL_0000010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5992,8 +6014,8 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000643"/>
-                <owl:allValuesFrom rdf:resource="&obo;CL_0000010"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0600024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A processed material comprised of a collection of cultured cells that has been continuously maintained together in culture and shares a common propagation history.</obo:IAO_0000115>
@@ -6030,8 +6052,8 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="&obo;IAO_0000027"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;IAO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -6058,12 +6080,12 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;IAO_0000027"/>
+                <owl:allValuesFrom rdf:resource="&obo;IAO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:allValuesFrom rdf:resource="&obo;IAO_0000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6194,14 +6216,14 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdfs:subClassOf rdf:resource="&obo;OBI_0600014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000681"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000151"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000151"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000681"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 rdf:datatype="&xsd;string">OBI-Branch: adapted from wikipedia and wordnet</obo:IAO_0000119>
@@ -6221,14 +6243,14 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdfs:subClassOf rdf:resource="&obo;OBI_0600014"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000681"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0400106"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0400106"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000681"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="&xsd;string">Philippe Rocca-Serra</obo:IAO_0000117>
@@ -6248,14 +6270,14 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000838"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000806"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000806"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 rdf:datatype="&xsd;string">OBI-Branch</obo:IAO_0000119>
@@ -6275,14 +6297,14 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0302874"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;IAO_0000310"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;IAO_0000310"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0302874"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 rdf:datatype="&xsd;string">Philippe Rocca-Serra and OBI consortium</obo:IAO_0000117>
@@ -6302,12 +6324,6 @@ Manual editing of automatically recorded data in an anesthesia information manag
         <rdfs:label xml:lang="en">centrifuge</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000832"/>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000932"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000085"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000453"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000085"/>
@@ -6333,6 +6349,12 @@ Manual editing of automatically recorded data in an anesthesia information manag
                         <owl:someValuesFrom rdf:resource="&obo;OBI_0000370"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000085"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000453"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A device with a rapidly rotating container that applies centrifugal force to its contents</obo:IAO_0000115>
@@ -6395,6 +6417,17 @@ defines and states the requirements (positive or negative) for an entity to be c
         <rdfs:subClassOf rdf:resource="&obo;OBI_0001928"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000059"/>
+                        <owl:someValuesFrom rdf:resource="&obo;OBI_0500026"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -6435,17 +6468,6 @@ defines and states the requirements (positive or negative) for an entity to be c
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
-                <owl:someValuesFrom>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000059"/>
-                        <owl:someValuesFrom rdf:resource="&obo;OBI_0500026"/>
-                    </owl:Restriction>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0000810"/>
             </owl:Restriction>
@@ -6469,12 +6491,6 @@ defines and states the requirements (positive or negative) for an entity to be c
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000684"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0100026"/>
             </owl:Restriction>
@@ -6483,6 +6499,12 @@ defines and states the requirements (positive or negative) for an entity to be c
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0100051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000684"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 xml:lang="en">IEDB</obo:IAO_0000119>
@@ -6508,13 +6530,13 @@ defines and states the requirements (positive or negative) for an entity to be c
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000094"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6541,12 +6563,6 @@ defines and states the requirements (positive or negative) for an entity to be c
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000686"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0302716"/>
             </owl:Restriction>
@@ -6555,6 +6571,12 @@ defines and states the requirements (positive or negative) for an entity to be c
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:minCardinality rdf:datatype="&xsd;nonNegativeInteger">2</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000686"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
@@ -6599,6 +6621,24 @@ defines and states the requirements (positive or negative) for an entity to be c
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000838"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000806"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0100060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0100060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -6608,24 +6648,6 @@ defines and states the requirements (positive or negative) for an entity to be c
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000806"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0100060"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0100060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
@@ -6646,18 +6668,6 @@ defines and states the requirements (positive or negative) for an entity to be c
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;CL_0000000"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0100060"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0000079"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -6665,6 +6675,18 @@ defines and states the requirements (positive or negative) for an entity to be c
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0000456"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;CL_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000299"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0100060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000119>PERSON:Matthew Brush</obo:IAO_0000119>
@@ -6869,50 +6891,6 @@ defines and states the requirements (positive or negative) for an entity to be c
     
 
 
-    <!-- http://purl.obolibrary.org/obo/biobank.owl/class_0138 -->
-
-    <owl:Class rdf:about="&obo;biobank.owl/class_0138">
-        <rdfs:label xml:lang="en">pipe tobacco</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000047"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="&obo;biobank.owl/class_0139"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/biobank.owl/class_0139 -->
-
-    <owl:Class rdf:about="&obo;biobank.owl/class_0139">
-        <rdfs:label xml:lang="en">tobacco</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2759"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/biobank.owl/class_0140 -->
-
-    <owl:Class rdf:about="&obo;biobank.owl/class_0140">
-        <rdfs:label xml:lang="en">tobacco material</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;OBI_0000047"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                        <owl:someValuesFrom rdf:resource="&obo;biobank.owl/class_0139"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000118>tobacco product</obo:IAO_0000118>
-    </owl:Class>
-    
-
-
     <!-- http://vivoweb.org/ontology/core#Laboratory -->
 
     <owl:Class rdf:about="http://vivoweb.org/ontology/core#Laboratory">
@@ -6938,7 +6916,7 @@ defines and states the requirements (positive or negative) for an entity to be c
                         <owl:unionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="&obo;BIOBANK_0000044"/>
                             <rdf:Description rdf:about="&obo;BIOBANK_0000046"/>
-                            <rdf:Description rdf:about="&obo;biobank.owl/class_0138"/>
+                            <rdf:Description rdf:about="&obo;BIOBANK_0000055"/>
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
