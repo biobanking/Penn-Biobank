@@ -373,13 +373,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;cl#lacks_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;IAO_0000178"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0100051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;cl#lacks_part"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0100051"/>
+                <owl:someValuesFrom rdf:resource="&obo;IAO_0000178"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A collection packet which only contains container that will be used for holding specimen</obo:IAO_0000115>
@@ -390,7 +390,7 @@
     <!-- http://purl.obolibrary.org/obo/BIOBANK_0000026 -->
 
     <owl:Class rdf:about="&obo;BIOBANK_0000026">
-        <rdfs:label xml:lang="en">consent form</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_consent form</rdfs:label>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
         <obo:IAO_0000115>A document that describes the study in plain language and is used to obtain patient or his/her parent/guardian permission to use specimen collected from him/her in which studys and share information with which providers. </obo:IAO_0000115>
         <obo:IAO_0000116>replaced by
@@ -460,7 +460,7 @@
     <!-- http://purl.obolibrary.org/obo/BIOBANK_0000029 -->
 
     <owl:Class rdf:about="&obo;BIOBANK_0000029">
-        <rdfs:label xml:lang="en">filled consent form</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete_filled consent form</rdfs:label>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
         <obo:IAO_0000116>replaced by &apos;informed consent form&apos; http://purl.obolibrary.org/obo/ICO_0000001</obo:IAO_0000116>
         <obo:IAO_0000115>An edited document which is output of a form filling process with input document, consent form, and participants, patient and human subject recruiter.</obo:IAO_0000115>
@@ -477,13 +477,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000085"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000370"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000399"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000085"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000399"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000370"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A device that is made to collect, ship and store blood specimen in an easy and inexpensive way.</obo:IAO_0000115>
@@ -585,14 +585,14 @@
         <rdfs:subClassOf rdf:resource="&obo;BIOBANK_0000034"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000030"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000655"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000655"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A collecting specimen from organism that collects blood from organism and spot the blood on the blood spot card.</obo:IAO_0000115>
@@ -634,14 +634,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000655"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
-                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000030"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000035"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
+                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A specimen that located in a blood spot card via blood spotting process.</rdfs:comment>
@@ -732,14 +732,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000047"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_18723"/>
+                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="&obo;biobank.owl/class_0139"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="&obo;biobank.owl/class_0139"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_18723"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -768,14 +768,14 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000047"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
-                <owl:someValuesFrom rdf:resource="&obo;biobank.owl/class_0139"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_18723"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_18723"/>
+                <owl:onProperty rdf:resource="&obo;RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="&obo;biobank.owl/class_0139"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -870,14 +870,14 @@
         <rdfs:subClassOf rdf:resource="&efo;EFO_0004318"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="&obo;biobank.owl/class_0138"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000049"/>
+                <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="&obo;biobank.owl/class_0138"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -945,6 +945,12 @@
     <rdf:Description rdf:about="&obo;ERO_0000979">
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000085"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0000370"/>
             </owl:Restriction>
@@ -953,12 +959,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000010"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
