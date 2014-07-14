@@ -1,0 +1,265 @@
+ID	Name	Definition	Synonyms	URI	is obsolete
+BFO_0000001	entity			http://purl.obolibrary.org/obo/BFO_0000001	false
+BFO_0000002	continuant	An entity  that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.	endurant	http://purl.obolibrary.org/obo/BFO_0000002	false
+BFO_0000003	occurrent	An entity  that has temporal parts and that happens, unfolds or develops through time. Sometimes also called perdurants.	perdurant	http://purl.obolibrary.org/obo/BFO_0000003	false
+BFO_0000004	independent continuant	A continuant  that is a bearer of quality  and realizable entity  entities, in which other entities inhere and which itself cannot inhere in anything.	substantial entity	http://purl.obolibrary.org/obo/BFO_0000004	false
+BFO_0000005	dependent continuant	A continuant  that is either dependent on one or other independent continuant  bearers or inheres in or is borne by other entities.		http://purl.obolibrary.org/obo/BFO_0000005	false
+BFO_0000007	process	A processual entity  that is a maximally connected spatiotemporal whole and has bona fide beginnings and endings corresponding to real discontinuities.		http://purl.obolibrary.org/obo/BFO_0000007	false
+BFO_0000008	temporal region	An occurrent  that is part of time.		http://purl.obolibrary.org/obo/BFO_0000008	false
+BFO_0000016	disposition	A realizable entity  that essentially causes a specific process or transformation in the object  in which it inheres, under specific circumstances and in conjunction with the laws of nature. A general formula for dispositions is: X (object  has the disposition D to (transform, initiate a process) R under conditions C.		http://purl.obolibrary.org/obo/BFO_0000016	false
+BFO_0000017	realizable entity	A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances.		http://purl.obolibrary.org/obo/BFO_0000017	false
+BFO_0000019	quality	A specifically dependent continuant  that is exhibited if it inheres in an entity or entities at all (a categorical property).		http://purl.obolibrary.org/obo/BFO_0000019	false
+BFO_0000020	specifically dependent continuant	A continuant  that inheres in or is borne by other entities. Every instance of A requires some specific instance of B which must always be the same.	trope,property,mode	http://purl.obolibrary.org/obo/BFO_0000020	false
+BFO_0000021	temporal instant	A connected temporal region  comprising a single moment of time.		http://purl.obolibrary.org/obo/BFO_0000021	false
+BFO_0000022	connected temporal region	A temporal region  every point of which is mediately or immediately connected with every other point of which.		http://purl.obolibrary.org/obo/BFO_0000022	false
+BFO_0000023	role	A realizable entity  the manifestation of which brings about some result or end that is not essential to a continuant  in virtue of the kind of thing that it is but that can be served or participated in by that kind of continuant  in some kinds of natural, social or institutional contexts.		http://purl.obolibrary.org/obo/BFO_0000023	false
+BFO_0000025	object boundary	An independent continuant  that is a lower dimensional part of a spatial entity, normally a closed two-dimensional surface. Boundaries are those privileged parts of object  entities that exist at exactly the point where the object  is separated off from the rest of the existing entities in the world.	substance boundary	http://purl.obolibrary.org/obo/BFO_0000025	false
+BFO_0000029	site	An independent continuant  consisting of a characteristic spatial shape in relation to some arrangement of other continuant  entities and of the medium which is enclosed in whole or in part by this characteristic spatial shape. Site  entities are entities that can be occupied by other continuant  entities.		http://purl.obolibrary.org/obo/BFO_0000029	false
+BFO_0000031	generically dependent continuant	A continuant  that is dependent on one or other independent continuant  bearers. For every instance of A requires some instance of (an independent continuant  type) B but which instance of B serves can change from time to time.		http://purl.obolibrary.org/obo/BFO_0000031	false
+BFO_0000032	scattered temporal region	A temporal region  every point of which is not mediately or immediately connected with every other point of which.		http://purl.obolibrary.org/obo/BFO_0000032	false
+BFO_0000034	function	A realizable entity  the manifestation of which is an essentially end-directed activity of a continuant  entity in virtue of that continuant  entity being a specific kind of entity in the kind or kinds of contexts that it is made for.		http://purl.obolibrary.org/obo/BFO_0000034	false
+BFO_0000035	process boundary	A processual entity  that is the fiat or bona fide instantaneous temporal process boundary.		http://purl.obolibrary.org/obo/BFO_0000035	false
+BFO_0000038	temporal interval	A connected temporal region  lasting for more than a single moment of time.		http://purl.obolibrary.org/obo/BFO_0000038	false
+BFO_0000040	material entity	An independent continuant  that is spatially extended whose identity is independent of that of other entities and can be maintained through time.		http://purl.obolibrary.org/obo/BFO_0000040	false
+BFO_0000050	is part of		part_of,part of	http://purl.obolibrary.org/obo/BFO_0000050	false
+BFO_0000051	has part		has_part	http://purl.obolibrary.org/obo/BFO_0000051	false
+BFO_0000052	inheres in		inheres_in	http://purl.obolibrary.org/obo/BFO_0000052	false
+BFO_0000053	is bearer of		bearer of,bearer_of	http://purl.obolibrary.org/obo/BFO_0000053	false
+BFO_0000054	is realized by		realized_by,realized by	http://purl.obolibrary.org/obo/BFO_0000054	false
+BFO_0000055	realizes			http://purl.obolibrary.org/obo/BFO_0000055	false
+BFO_0000056	participates in		participates_in	http://purl.obolibrary.org/obo/BFO_0000056	false
+BFO_0000057	has participant		has_participant	http://purl.obolibrary.org/obo/BFO_0000057	false
+BFO_0000058	is concretized as			http://purl.obolibrary.org/obo/BFO_0000058	false
+BFO_0000059	concretizes			http://purl.obolibrary.org/obo/BFO_0000059	false
+BFO_0000060	is immediately preceded by		immediately_preceded_by,immediately preceded by	http://purl.obolibrary.org/obo/BFO_0000060	false
+BFO_0000061	immediately precedes		immediately_precedes	http://purl.obolibrary.org/obo/BFO_0000061	false
+BFO_0000062	is preceded by		preceded_by,preceded by	http://purl.obolibrary.org/obo/BFO_0000062	false
+BFO_0000063	precedes			http://purl.obolibrary.org/obo/BFO_0000063	false
+BFO_0000064	is course of		course of,course_of	http://purl.obolibrary.org/obo/BFO_0000064	false
+BFO_0000065	has course		has_course	http://purl.obolibrary.org/obo/BFO_0000065	false
+BFO_0000066	occurs in		occurs_in	http://purl.obolibrary.org/obo/BFO_0000066	false
+BFO_0000067	has site of		has_site_of	http://purl.obolibrary.org/obo/BFO_0000067	false
+BFO_0000068	begins to exist during		begins_to_exist_during	http://purl.obolibrary.org/obo/BFO_0000068	false
+BFO_0000069	ceases to exist during		ceases_to_exist_during	http://purl.obolibrary.org/obo/BFO_0000069	false
+BFO_0000070	s depends on		s_depends_on	http://purl.obolibrary.org/obo/BFO_0000070	false
+BFO_0000071	has granular part		has_granular_part	http://purl.obolibrary.org/obo/BFO_0000071	false
+BFO_0000072	has granular process part		has_granular_process_part	http://purl.obolibrary.org/obo/BFO_0000072	false
+BFO_0000073	is granular part of		granular part of,granular_part_of	http://purl.obolibrary.org/obo/BFO_0000073	false
+BFO_0000074	is granular part of process		granular_part_of_process,granular part of process	http://purl.obolibrary.org/obo/BFO_0000074	false
+BFO_0000075	is aggregate of		aggregate of,aggregate_of	http://purl.obolibrary.org/obo/BFO_0000075	false
+BFO_0000076	is fiat part of		fiat part of,fiat_part_of	http://purl.obolibrary.org/obo/BFO_0000076	false
+BFO_0000077	has participant beginning to exist		has_participant_beginning_to_exist	http://purl.obolibrary.org/obo/BFO_0000077	false
+BFO_0000078	has participant ceasing to exist		has_participant_ceasing_to_exist	http://purl.obolibrary.org/obo/BFO_0000078	false
+BFO_0000079	is function of		function of,function_of	http://purl.obolibrary.org/obo/BFO_0000079	false
+BFO_0000080	is quality of		quality of,quality_of	http://purl.obolibrary.org/obo/BFO_0000080	false
+BFO_0000081	is role of		role_of,role of	http://purl.obolibrary.org/obo/BFO_0000081	false
+BFO_0000082	is located in		located_in,located in	http://purl.obolibrary.org/obo/BFO_0000082	false
+BFO_0000083	is located at		located at,located_at	http://purl.obolibrary.org/obo/BFO_0000083	false
+BFO_0000084	g depends on		g_depends_on	http://purl.obolibrary.org/obo/BFO_0000084	false
+BFO_0000085	has function		has_function	http://purl.obolibrary.org/obo/BFO_0000085	false
+BFO_0000086	has quality		has_quality	http://purl.obolibrary.org/obo/BFO_0000086	false
+BFO_0000087	has role		has_role	http://purl.obolibrary.org/obo/BFO_0000087	false
+BIOBANK_0000010	freezer shelf	A device that is part of a freezer and consists of a solid horizontal surface to keep material in the freezer on a flat surface aimming to prevent its movement.		http://purl.obolibrary.org/obo/BIOBANK_0000010	false
+BIOBANK_0000011	discarding	A planned process that get rid of a material that is no longer useful or desirable.		http://purl.obolibrary.org/obo/BIOBANK_0000011	false
+BIOBANK_0000012	human subject recuiter role	A worker role of recruiting human subject to partcipate clinical investigation in which data about human subject is collected. 		http://purl.obolibrary.org/obo/BIOBANK_0000012	false
+BIOBANK_0000013	cryovial box	A device that contains cryovials		http://purl.obolibrary.org/obo/BIOBANK_0000013	false
+BIOBANK_0000014	trash container	A container that is used to keep material that will not be used in the investigation.		http://purl.obolibrary.org/obo/BIOBANK_0000014	false
+BIOBANK_0000015	freezer rack	A device that is part of a freezer for keeping material in the freezer in a defined position and prevented in its movement.		http://purl.obolibrary.org/obo/BIOBANK_0000015	false
+BIOBANK_0000016	blood spot card box	A device that contains blood spot cards.		http://purl.obolibrary.org/obo/BIOBANK_0000016	false
+BIOBANK_0000017	data confirm questionnaire	A questionnaire that comprises a set of questions about patient, such as height, weight, race, biological sex, clinical history, etc., will be filled by the recruiter based on Electronic Medical Record (EMR).		http://purl.obolibrary.org/obo/BIOBANK_0000017	false
+BIOBANK_0000018	form filling	A document editing in which one or more fields in a form are filled with related information, such as answering questionnare.		http://purl.obolibrary.org/obo/BIOBANK_0000018	false
+BIOBANK_0000019	filled patient questionnaire	A patient questionnaire which is output of a form filling process that has participant, patient.		http://purl.obolibrary.org/obo/BIOBANK_0000019	false
+BIOBANK_0000020	patient questionnaire	A questionnaire that comprises a set of questions about patient, such as height, weight, race, biological sex, clinical history, etc., will be filled by the human subject.		http://purl.obolibrary.org/obo/BIOBANK_0000020	false
+BIOBANK_0000021	collection packet with specimen and information material	A collection packet which contains container with collected specimen and material carries information about the collected specimen and specimen source.		http://purl.obolibrary.org/obo/BIOBANK_0000021	false
+BIOBANK_0000022	blood additive role	A material to be added role is beared by chemical entity that is added into a blood collection containter to optimize specific blood component(s) preservation and/or separation.		http://purl.obolibrary.org/obo/BIOBANK_0000022	false
+BIOBANK_0000023	lab technician role	A worker role that performs the practical hands-on work in laboratories and is realized during study design execution.		http://purl.obolibrary.org/obo/BIOBANK_0000023	false
+BIOBANK_0000024	collection packet with specimen	A collection packet which contains container with collected specimen.		http://purl.obolibrary.org/obo/BIOBANK_0000024	false
+BIOBANK_0000025	empty collection packet	A collection packet which only contains container that will be used for holding specimen		http://purl.obolibrary.org/obo/BIOBANK_0000025	false
+BIOBANK_0000026	consent form	A document that describes the study in plain language and is used to obtain patient or his/her parent/guardian permission to use specimen collected from him/her in which studys and share information with which providers. 		http://purl.obolibrary.org/obo/BIOBANK_0000026	false
+BIOBANK_0000027	filled data confirm questionnaire	A data confirm questionnaire which is output of a form filling process that has participant, human subject recruiter.		http://purl.obolibrary.org/obo/BIOBANK_0000027	false
+BIOBANK_0000028	collection packet	A material entity used for specimen collection. It can contain some container to hold specimen, specimen, and material (e.g. paper) carrying information of specimen and specimen source (e.g. patient).		http://purl.obolibrary.org/obo/BIOBANK_0000028	false
+BIOBANK_0000029	filled consent form	An edited document which is output of a form filling process with input document, consent form, and participants, patient and human subject recruiter.		http://purl.obolibrary.org/obo/BIOBANK_0000029	false
+BIOBANK_0000030	blood spot card	A device that is made to collect, ship and store blood specimen in an easy and inexpensive way.		http://purl.obolibrary.org/obo/BIOBANK_0000030	false
+BIOBANK_0000031	cryovial	A test tube that designed to store materials at very low temperatures.		http://purl.obolibrary.org/obo/BIOBANK_0000031	false
+BIOBANK_0000032	vacutainer	A test tube which is either a sterile glass or plastic tube with a closure that is evacuated to create a vacuum inside the tube facilitating the draw of a predetermined volume of liquid. Most commonly used to draw a blood sample directly from the vein, these also are used to collect urine samples. Vacutainer tube may contain additives designed to stabilize and preserve the specimen prior to analytical testing.		http://purl.obolibrary.org/obo/BIOBANK_0000032	false
+BIOBANK_0000033	specimen receipt	A planned process that specimens in a packet are received in the lab.		http://purl.obolibrary.org/obo/BIOBANK_0000033	false
+BIOBANK_0000034	adding specimen into a container	An adding a material entity into a target where a collected specimen is added to a specimen container. (note, not used for other specimen process that produce new specimens)		http://purl.obolibrary.org/obo/BIOBANK_0000034	false
+BIOBANK_0000035	blood spotting	A collecting specimen from organism that collects blood from organism and spot the blood on the blood spot card.		http://purl.obolibrary.org/obo/BIOBANK_0000035	false
+BIOBANK_0000036	buffy coat specimen	a processed specimen which is output of density gradient centrifugation of an anticoagulated blood specimen that contains most of the white blood cells and platelets. 		http://purl.obolibrary.org/obo/BIOBANK_0000036	false
+BIOBANK_0000037	has maximum capacity			http://purl.obolibrary.org/obo/BIOBANK_0000037	false
+BIOBANK_0000038	has actual load			http://purl.obolibrary.org/obo/BIOBANK_0000038	false
+BIOBANK_0000039	blood specimen on blood spot card			http://purl.obolibrary.org/obo/BIOBANK_0000039	false
+BIOBANK_0000040	empty collection packet with unfilled information material	An empty collection packet which contains container without specimen and material carries unfilled form that will be used to fill information about specimen to be collected.		http://purl.obolibrary.org/obo/BIOBANK_0000040	false
+BIOBANK_0000041	duration time of smoking regularly			http://purl.obolibrary.org/obo/BIOBANK_0000041	false
+BIOBANK_0000042	average daily use of cigarette datum			http://purl.obolibrary.org/obo/BIOBANK_0000042	false
+BIOBANK_0000043	nicotine patch			http://purl.obolibrary.org/obo/BIOBANK_0000043	false
+BIOBANK_0000044	cigarette			http://purl.obolibrary.org/obo/BIOBANK_0000044	false
+BIOBANK_0000045	nicotine gum or lozenge			http://purl.obolibrary.org/obo/BIOBANK_0000045	false
+BIOBANK_0000046	cigar			http://purl.obolibrary.org/obo/BIOBANK_0000046	false
+BIOBANK_0000047	chewing tobacco			http://purl.obolibrary.org/obo/BIOBANK_0000047	false
+BIOBANK_0000048	nicotine material	A processed materialmaterial entity that contains nicotine.	nicotine product	http://purl.obolibrary.org/obo/BIOBANK_0000048	false
+BIOBANK_0000049	pipe			http://purl.obolibrary.org/obo/BIOBANK_0000049	false
+BIOBANK_0000050	nicotine e-cigarette			http://purl.obolibrary.org/obo/BIOBANK_0000050	false
+BIOBANK_0000051	smoking start date			http://purl.obolibrary.org/obo/BIOBANK_0000051	false
+BIOBANK_0000052	pipe smoking behavior			http://purl.obolibrary.org/obo/BIOBANK_0000052	false
+BIOBANK_0000053	duration time of smoking			http://purl.obolibrary.org/obo/BIOBANK_0000053	false
+BIOBANK_0000054	smoking end date			http://purl.obolibrary.org/obo/BIOBANK_0000054	false
+CARO_0000004	portion of organism substance	Material anatomical entity in a gaseous, liquid, semisolid or solid state; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures as they pass through the body.		http://purl.obolibrary.org/obo/CARO_0000004	false
+CARO_0001008	gross anatomical part	Anatomical structure that is part of a multicellular organism and is at the gross anatomical level, e.g. above the level of a cell.  Included are portions of organism substances such as blood, multi-cell-part structures such as axon tracts, acellular anatomical structures such as hair, and organism subdivisions such as head. Excluded is the whole organism and more granular parts of the organism, such as atoms, molecules, macromolecular complexes and cells.		http://purl.obolibrary.org/obo/CARO_0001008	false
+CHEBI_18723	nicotine	An N-alkylpyrrolidine that consists of N-methylpyrrolidine bearing a pyridin-3-yl substituent at position 2.		http://purl.obolibrary.org/obo/CHEBI_18723	false
+CHEBI_23367	molecular entity	Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.,Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.		http://purl.obolibrary.org/obo/CHEBI_23367	false
+CHEBI_42191	ethylenediaminetetraacetic acid	A polyamino carboxylic acid that has formula C10H16N2O8.		http://purl.obolibrary.org/obo/CHEBI_42191	false
+CHEBI_53258	sodium citrate	The trisodium salt of citric acid.		http://purl.obolibrary.org/obo/CHEBI_53258	false
+CL_0000000	cell	Anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.		http://purl.obolibrary.org/obo/CL_0000000	false
+ERO_0000979	freezer	An instrument that consists of a thermally insulated compartment, cabinet, or room in which a subfreezing temperature is maintained for the rapid freezing and storing of perishable items.		http://purl.obolibrary.org/obo/ERO_0000979	false
+ERO_0000979	freezer	An instrument that consists of a thermally insulated compartment, cabinet, or room in which a subfreezing temperature is maintained for the rapid freezing and storing of perishable items.		http://purl.obolibrary.org/obo/ERO_0000979	false
+GO_0008150	biological_process	Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.		http://purl.obolibrary.org/obo/GO_0008150	false
+IAO_0000001	conditional specification	a directive information entity that specifies what should happen if the trigger condition is fulfilled		http://purl.obolibrary.org/obo/IAO_0000001	false
+IAO_0000002	example to be eventually removed			http://purl.obolibrary.org/obo/IAO_0000002	false
+IAO_0000003	measurement unit label	A measurement unit label is as a label that is part of a scalar measurement datum and denotes a unit of measure.		http://purl.obolibrary.org/obo/IAO_0000003	false
+IAO_0000005	objective specification	a directive information entity that describes an intended process endpoint. When part of a plan specification the concretization is realized in a planned process in which the bearer tries to effect the world so that the process endpoint is achieved.		http://purl.obolibrary.org/obo/IAO_0000005	false
+IAO_0000007	action specification	a directive information entity that describes an action the bearer will take		http://purl.obolibrary.org/obo/IAO_0000007	false
+IAO_0000009	datum label	A label is a symbol that is part of some other datum and is used to either partially define  the denotation of that datum or to provide a means for identifying the datum as a member of the set of data with the same label		http://purl.obolibrary.org/obo/IAO_0000009	false
+IAO_0000027	data item	a data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.	data	http://purl.obolibrary.org/obo/IAO_0000027	false
+IAO_0000030	information content entity	an information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity		http://purl.obolibrary.org/obo/IAO_0000030	false
+IAO_0000032	scalar measurement datum	a scalar measurement datum is a measurement datum that is composed of two parts, numerals and a unit label.		http://purl.obolibrary.org/obo/IAO_0000032	false
+IAO_0000033	directive information entity	An information content entity whose concretizations indicate to their bearer how to realize them in a process.		http://purl.obolibrary.org/obo/IAO_0000033	false
+IAO_0000039	has measurement unit label			http://purl.obolibrary.org/obo/IAO_0000039	false
+IAO_0000078	curation status specification	The curation status of the term. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value.		http://purl.obolibrary.org/obo/IAO_0000078	false
+IAO_0000102	data about an ontology part	data about an ontology part is a data item about a part of an ontology, for example a term		http://purl.obolibrary.org/obo/IAO_0000102	false
+IAO_0000104	plan specification	a directive information entity that when concretized it is realized in a process in which the bearer tries to achieve the objectives, in part by taking the actions specified. Plan specifications includes parts such as objective specification, action specifications and conditional specifications.		http://purl.obolibrary.org/obo/IAO_0000104	false
+IAO_0000109	measurement datum	A measurement datum is an information content entity that is a recording of the output of a measurement such as produced by a device.		http://purl.obolibrary.org/obo/IAO_0000109	false
+IAO_0000120	metadata complete	Class has all its metadata, but is either not guaranteed to be in its final location in the asserted IS_A hierarchy or refers to another class that is not complete.		http://purl.obolibrary.org/obo/IAO_0000120	false
+IAO_0000121	organizational term	term created to ease viewing/sort terms for development purpose, and will not be included in a release		http://purl.obolibrary.org/obo/IAO_0000121	false
+IAO_0000122	ready for release	Class has undergone final review, is ready for use, and will be included in the next release. Any class lacking "ready_for_release" should be considered likely to change place in hierarchy, have its definition refined, or be obsoleted in the next release.  Those classes deemed "ready_for_release" will also derived from a chain of ancestor classes that are also "ready_for_release."		http://purl.obolibrary.org/obo/IAO_0000122	false
+IAO_0000123	metadata incomplete	Class is being worked on; however, the metadata (including definition) are not complete or sufficiently clear to the branch editors.		http://purl.obolibrary.org/obo/IAO_0000123	false
+IAO_0000124	uncurated	Nothing done yet beyond assigning a unique class ID and proposing a preferred term.		http://purl.obolibrary.org/obo/IAO_0000124	false
+IAO_0000125	pending final vetting	All definitions, placement in the asserted IS_A hierarchy and required minimal metadata are complete. The class is awaiting a final review by someone other than the term editor.		http://purl.obolibrary.org/obo/IAO_0000125	false
+IAO_0000136	is about	is_about is a (currently) primitive relation that relates an information artifact to an entity.		http://purl.obolibrary.org/obo/IAO_0000136	false
+IAO_0000144	conclusion textual entity	A textual entity that expresses the results of reasoning about a problem, for instance as typically found towards the end of scientific papers.		http://purl.obolibrary.org/obo/IAO_0000144	false
+IAO_0000178	material information bearer	An information bearer is a material_entity in which a concretization of an information content entity inheres.		http://purl.obolibrary.org/obo/IAO_0000178	false
+IAO_0000300	textual entity	A textual entity is a part of a manifestation (FRBR sense), a generically dependent continuant whose concretizations are patterns of glyphs intended to be interpreted as words, formulas, etc.	text	http://purl.obolibrary.org/obo/IAO_0000300	false
+IAO_0000310	document	A collection of information content entities intended to be understood together as a whole		http://purl.obolibrary.org/obo/IAO_0000310	false
+IAO_0000413	is duration of	relates a process to a time-measurement-datum that represents the duration of the process		http://purl.obolibrary.org/obo/IAO_0000413	false
+IAO_0000416	time measurement datum	A scalar measurement datum that is the result of measuring a temporal interval		http://purl.obolibrary.org/obo/IAO_0000416	false
+IAO_0000423	to be replaced with external ontology term	Terms with this status should eventually replaced with a term from another ontology.		http://purl.obolibrary.org/obo/IAO_0000423	false
+IAO_0000428	requires discussion	A term that is metadata complete, has been reviewed, and problems have been identified that require discussion before release. Such a term requires editor note(s) to identify the outstanding issues.		http://purl.obolibrary.org/obo/IAO_0000428	false
+IAO_0000572	documenting	a planned process in which a document is created or added to by including the specified input in it.		http://purl.obolibrary.org/obo/IAO_0000572	false
+NCBITaxon_10239	Viruses			http://purl.obolibrary.org/obo/NCBITaxon_10239	false
+NCBITaxon_2	Bacteria			http://purl.obolibrary.org/obo/NCBITaxon_2	false
+NCBITaxon_2157	Archaea			http://purl.obolibrary.org/obo/NCBITaxon_2157	false
+NCBITaxon_2759	Eukaryota			http://purl.obolibrary.org/obo/NCBITaxon_2759	false
+NCBITaxon_9606	Homo sapiens		human being	http://purl.obolibrary.org/obo/NCBITaxon_9606	false
+OBI_0000011	planned process	A processual entity that realizes a plan which is the concretization of a plan specification.		http://purl.obolibrary.org/obo/OBI_0000011	false
+OBI_0000047	processed material	Is a material entity that is created or changed during material processing.		http://purl.obolibrary.org/obo/OBI_0000047	false
+OBI_0000066	investigation	a planned process that consists of parts: planning, study design execution, documentation and which produce conclusion(s).		http://purl.obolibrary.org/obo/OBI_0000066	false
+OBI_0000079	culture medium	a processed material that provides the needed nourishment for microorganisms or cells grown in vitro.		http://purl.obolibrary.org/obo/OBI_0000079	false
+OBI_0000093	patient role	a role which inheres in a person and is realized by the process of being under the care of a physician or health care provider	patient	http://purl.obolibrary.org/obo/OBI_0000093	false
+OBI_0000094	material processing	A planned process which results in physical changes in a specified input material	material transformation	http://purl.obolibrary.org/obo/OBI_0000094	false
+OBI_0000097	participant under investigation role	A role that is realized through the execution of a study design in which the bearer of the role participates and in which data about that bearer is collected.		http://purl.obolibrary.org/obo/OBI_0000097	false
+OBI_0000112	specimen role	a role borne by a material entity that is gained during a specimen creation process and that can be realized by use of the specimen in an investigation		http://purl.obolibrary.org/obo/OBI_0000112	false
+OBI_0000115	intervention design	An intervention design is a study design in which a controlled process applied to the subjects (the intervention) serves as the independent variable manipulated by the experimentalist. The treatment (perturbation or intervention) defined can be defined as a combination of values taken by independent variable manipulated by the experimentalists are applied to the recruited subjects assigned (possibly by applying specific methods) to treatment groups. The specificity of intervention design is the fact that independent variables are being manipulated and a response of the biological system is evaluated via response variables as monitored by possibly a series of assays.		http://purl.obolibrary.org/obo/OBI_0000115	false
+OBI_0000116	worker role	a personnel role played by a party who executes a component of the study plan; this can occur before, during, after or outside the study timeline	worker	http://purl.obolibrary.org/obo/OBI_0000116	false
+OBI_0000124	is_supported_by_data	The relation between a data item and a conclusion where the conclusion is the output of a data interpreting process and the data item is used as an input to that process		http://purl.obolibrary.org/obo/OBI_0000124	false
+OBI_0000151	filter paper	a device manufacture with the intent to provide a porous unsized paper used for filtering.		http://purl.obolibrary.org/obo/OBI_0000151	false
+OBI_0000181	population	a population is a collection of individuals from the same taxonomic class living, counted or sampled at a particular site or in a particular area		http://purl.obolibrary.org/obo/OBI_0000181	false
+OBI_0000202	investigation agent role	Investigation agent role is a role borne by a person or organization which is realized in a process that is part of an investigation in which an objective is achieved. These processes include: planning, overseeing, funding, reviewing.	investigator	http://purl.obolibrary.org/obo/OBI_0000202	false
+OBI_0000245	organization	An organization is a continuant entity which can play roles,  has members, and has a set of organization rules.  Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members.		http://purl.obolibrary.org/obo/OBI_0000245	false
+OBI_0000272	protocol	a protocol is a plan specification which has sufficient level of detail and quantitative information to communicate it between domain experts, so that different domain experts will reliably be able to independently reproduce the process.		http://purl.obolibrary.org/obo/OBI_0000272	false
+OBI_0000274	adding a material entity into a target	is a process with the objective to place a material entity bearing the 'material to be added role' into a material bearing the 'target of material addition role'.		http://purl.obolibrary.org/obo/OBI_0000274	false
+OBI_0000293	has_specified_input	A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.		http://purl.obolibrary.org/obo/OBI_0000293	false
+OBI_0000299	has_specified_output	A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.		http://purl.obolibrary.org/obo/OBI_0000299	false
+OBI_0000312	is_specified_output_of	A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.		http://purl.obolibrary.org/obo/OBI_0000312	false
+OBI_0000319	material to be added role	material to be added role is a protocol participant role realized by a material which is added into a material bearing the target of material addition role in a material addition process		http://purl.obolibrary.org/obo/OBI_0000319	false
+OBI_0000338	interpreting data	the process of evaluating the data gathered in an investigation in the context of literature knowledge with the objective to generate more general conclusions or to identify what additional data is necessary to draw conclusions		http://purl.obolibrary.org/obo/OBI_0000338	false
+OBI_0000339	planning	a process of creating or modifying a plan.		http://purl.obolibrary.org/obo/OBI_0000339	false
+OBI_0000370	contain function	A contain function is a function to constrain a material entities location in space		http://purl.obolibrary.org/obo/OBI_0000370	false
+OBI_0000372	material separation function	A material separation function is a function that increases the resolution between two or more material entities. The  to distinction between the entities is usually based on some associated physical quality.		http://purl.obolibrary.org/obo/OBI_0000372	false
+OBI_0000378	filter function	A filter function is a function to prevent the flow of certain entities based on a quality or qualities of the entity while allowing entities which have different qualities to pass through		http://purl.obolibrary.org/obo/OBI_0000378	false
+OBI_0000399	solid support function	A solid support function is a function of a device on which an entity is kept in a defined position and prevented in its movement		http://purl.obolibrary.org/obo/OBI_0000399	false
+OBI_0000417	achieves_planned_objective	This relation obtains between a planned process and a objective specification when the criteria specified in the objective specification are met at the end of the planned process.		http://purl.obolibrary.org/obo/OBI_0000417	false
+OBI_0000434	adding material objective	is the specification of an objective to add a material into a target material. The adding is asymmetric in the sense that the target material largely retains its identity		http://purl.obolibrary.org/obo/OBI_0000434	false
+OBI_0000444	target of material addition role	target of material addition role is a role realized by an entity into which a material is added in a material addition process		http://purl.obolibrary.org/obo/OBI_0000444	false
+OBI_0000453	measure function	Measure function is a function that is borne by a processed material  and realized in a process in which information about some entity is expressed relative to some reference.		http://purl.obolibrary.org/obo/OBI_0000453	false
+OBI_0000456	material transformation objective	an objective specifiction that creates an specific output object from input materials.	artifact  creation objective	http://purl.obolibrary.org/obo/OBI_0000456	false
+OBI_0000471	study design execution	a planned process that realizes the concretization of a study design		http://purl.obolibrary.org/obo/OBI_0000471	false
+OBI_0000639	material separation objective	is an objective to transform a material entity into spatially separated components.		http://purl.obolibrary.org/obo/OBI_0000639	false
+OBI_0000643	has grain	the relation of the cells in the finger of the skin to the finger, in which an indeterminate number of grains are parts of the whole by virtue of being grains in a collective that is part of the whole, and in which removing one granular part does not nec- essarily damage or diminish the whole. Ontological Whether there is a fixed, or nearly fixed number of parts - e.g. fingers of the hand, chambers of the heart, or wheels of a car - such that there can be a notion of a single one being missing, or whether, by contrast, the number of parts is indeterminate - e.g., cells in the skin of the hand, red cells in blood, or rubber molecules in the tread of the tire of the wheel of the car.		http://purl.obolibrary.org/obo/OBI_0000643	false
+OBI_0000652	material combination	is a material processing with the objective to combine two or more material entities as input into a single material entity as output.		http://purl.obolibrary.org/obo/OBI_0000652	false
+OBI_0000655	blood specimen	a material entity derived from a portion of blood collected from an organism		http://purl.obolibrary.org/obo/OBI_0000655	false
+OBI_0000659	specimen collection	a planned process with the objective of obtaining specimen.		http://purl.obolibrary.org/obo/OBI_0000659	false
+OBI_0000678	portioning objective	is the objective to separate material into multiple portions, each of which contains a similar composition of the input material.		http://purl.obolibrary.org/obo/OBI_0000678	false
+OBI_0000681	separation into different composition objective	is the objective to separate a material entity that has parts of different types, and end with at least one output that is a material with parts of fewer types (modulo impurities)		http://purl.obolibrary.org/obo/OBI_0000681	false
+OBI_0000684	specimen creation objective	A specimen creation objective is to obtain a material entity for potential use as an input during an investigation		http://purl.obolibrary.org/obo/OBI_0000684	false
+OBI_0000686	material combination objective	is an objective to obtain an output material that contains several input materials.		http://purl.obolibrary.org/obo/OBI_0000686	false
+OBI_0000750	independent variable specification	a directive information entity that is part of a study design. Independent variables are entities whose values are selected to determine its relationship to an observed phenomenon (the dependent variable). In such an experiment, an attempt is made to find evidence that the values of the independent variable determine the values of the dependent variable (that which is being measured). The independent variable can be changed as required, and its values do not represent a problem requiring explanation in an analysis, but are taken simply as given. The dependent variable on the other hand, usually cannot be directly controlled		http://purl.obolibrary.org/obo/OBI_0000750	false
+OBI_0000806	material maintenance objective	is the objective to maintain some or all of the qualities of a material over time.		http://purl.obolibrary.org/obo/OBI_0000806	false
+OBI_0000810	informed consent process	A planned process in which subject is informed about key facts such as potential risks of a clinical trial both before deciding whether or not to participate, and throughout the study. 		http://purl.obolibrary.org/obo/OBI_0000810	false
+OBI_0000832	measurement device	a processed material created to have the function to measure		http://purl.obolibrary.org/obo/OBI_0000832	false
+OBI_0000833	objective_achieved_by	This relation obtains between a a objective specification and a planned process when the criteria specified in the objective specification are met at the end of the planned process.		http://purl.obolibrary.org/obo/OBI_0000833	false
+OBI_0000836	test tube	A test tube is a device consisting of a glass or plastic tubing, open at the top, usually with a rounded U-shaped bottom which has the function to contain material	collection tube,sample tube	http://purl.obolibrary.org/obo/OBI_0000836	false
+OBI_0000838	material maintenance	a process with that achieves the objective to maintain some or all of the characteristics of an input material over time		http://purl.obolibrary.org/obo/OBI_0000838	false
+OBI_0000915	freezing storage	A process in which a material entity has it's temperature lowered to below the freezing point in order to bring it to a state in which it can be maintained at this lower temperature in order to preserve some of its qualities		http://purl.obolibrary.org/obo/OBI_0000915	false
+OBI_0000922	frozen specimen	A specimen that has been frozen in order to store it.		http://purl.obolibrary.org/obo/OBI_0000922	false
+OBI_0000927	lyophilization storage	a storage process with input material entity and output freeze dried material for long time storage		http://purl.obolibrary.org/obo/OBI_0000927	false
+OBI_0000931	study intervention	the part of the execution of an intervention design study which is varied between two or more subjects in the study		http://purl.obolibrary.org/obo/OBI_0000931	false
+OBI_0000932	material separation device	A device with a separation function realized in a planed process		http://purl.obolibrary.org/obo/OBI_0000932	false
+OBI_0000950	paraffin specimen	a specimen that is output of a paraffin storage process in which specimen is embedded in paraffin		http://purl.obolibrary.org/obo/OBI_0000950	false
+OBI_0000953	processed specimen	A specimen that has been intentionally physically modified.		http://purl.obolibrary.org/obo/OBI_0000953	false
+OBI_0000965	lyophilized specimen	a specimen that is output of a lyophilization storage process in which specimen is lyophilized for storage.		http://purl.obolibrary.org/obo/OBI_0000965	false
+OBI_0000967	container	A device that can be used to restrict the location of material entities over time		http://purl.obolibrary.org/obo/OBI_0000967	false
+OBI_0000968	device	A device is a processed material which is designed to perform some function or functions	instrument	http://purl.obolibrary.org/obo/OBI_0000968	false
+OBI_0000971	fresh specimen	a specimen that is output of a specimen creation process used for an investigation without storage.		http://purl.obolibrary.org/obo/OBI_0000971	false
+OBI_0000977	paraffin storage	a storage process with input organism or anatomical entity and paraffin and output material embedded in paraffin for long term storage		http://purl.obolibrary.org/obo/OBI_0000977	false
+OBI_0000981	agar stab specimen	a specimen that is output of a process that cell culture inoculated into agar for long term storage.		http://purl.obolibrary.org/obo/OBI_0000981	false
+OBI_0001000	questionnaire	A document with a set of printed or written questions with a choice of answers, devised for the purposes of a survey or statistical study.		http://purl.obolibrary.org/obo/OBI_0001000	false
+OBI_0001003	agar stab storage	a storage process with input cell culture and agar and output agar stab for long time storage		http://purl.obolibrary.org/obo/OBI_0001003	false
+OBI_0001472	specimen with known storage state	A specimen for which it is known whether it has been subjected to storage of a specified type.		http://purl.obolibrary.org/obo/OBI_0001472	false
+OBI_0001479	tissue specimen	A specimen that derives from an anatomical part or substance arising from an organism. Examples of tissue specimen include tissue, organ, physiological system, blood, or body location (arm).		http://purl.obolibrary.org/obo/OBI_0001479	false
+OBI_0001755	selection criterion	a selection criterion is a directive information entity which defines and states a principle of standard by which selection process may take place.	selection rule	http://purl.obolibrary.org/obo/OBI_0001755	false
+OBI_0100016	blood plasma specimen	a material entity which corresponds to the liquid component of blood, in which the blood cells are suspended.	plasma	http://purl.obolibrary.org/obo/OBI_0100016	false
+OBI_0100017	blood serum specimen	A material entity which derives from blood and corresponds to blood plasma without fibrinogen or the other clotting factors.		http://purl.obolibrary.org/obo/OBI_0100017	false
+OBI_0100026	organism	A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.		http://purl.obolibrary.org/obo/OBI_0100026	false
+OBI_0100051	specimen	A material entity that has the specimen role.		http://purl.obolibrary.org/obo/OBI_0100051	false
+OBI_0100060	cell culture	a cell culture is a material entity consisting of a population of cells that is maintained in vitro		http://purl.obolibrary.org/obo/OBI_0100060	false
+OBI_0300311	observation design	observation design is a study design in which subjects are monitored in the absence of any active intervention by experimentalists.		http://purl.obolibrary.org/obo/OBI_0300311	false
+OBI_0302716	pool of specimens	A pool of specimens is a mixture of a population of samples which have been gathered from one or more sample populations, obtained by the physical process of mixing individual specimens, e.g.  mixing the DNA collected from the individual fish.		http://purl.obolibrary.org/obo/OBI_0302716	false
+OBI_0302874	edited document	A document which is the output of a document editing process		http://purl.obolibrary.org/obo/OBI_0302874	false
+OBI_0302885	filtration	filtration is a process which separates components suspended in a fluid based on granularity properties relying on a filter device		http://purl.obolibrary.org/obo/OBI_0302885	false
+OBI_0302886	centrifugation	centrifugation is a process separating molecules by size or density using centrifugal forces generated by a spinning rotor. G-forces of several hundred thousand times gravity are generated in ultracentrifugation		http://purl.obolibrary.org/obo/OBI_0302886	false
+OBI_0302893	storage	A maintenance process by which material entities that are not actively metabolizing are placed in well identified location and possibly under controlled environment in ad-hoc devices/structures in order to preserve and protect them from decay/alteration and maintain availability		http://purl.obolibrary.org/obo/OBI_0302893	false
+OBI_0302908	document editing	is a planned process with specified input original document and specified output edited document		http://purl.obolibrary.org/obo/OBI_0302908	false
+OBI_0400106	centrifuge			http://purl.obolibrary.org/obo/OBI_0400106	false
+OBI_0500000	study design	A study design is a plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution.	experimental design	http://purl.obolibrary.org/obo/OBI_0500000	false
+OBI_0500026	eligibility criterion	an eligibility criterion (rule) is_a selection criterion which  defines and states the requirements (positive or negative) for an entity to be considered as suitable for a given task or participation in a process. 	eligibility rule	http://purl.obolibrary.org/obo/OBI_0500026	false
+OBI_0600004	human subject enrollment	A planned process with the objective to obtain a population of human subjects to participate in an investigation by determining eligibility of subjects and obtaining informed consent from the person (or designated legal guardian of the person) 		http://purl.obolibrary.org/obo/OBI_0600004	false
+OBI_0600005	collecting specimen from organism	a process with the objective to obtain a material entity that was part of an organism for potential future use in an investigation		http://purl.obolibrary.org/obo/OBI_0600005	false
+OBI_0600014	material component separation	a material processing in which components of an input material become segregated in space		http://purl.obolibrary.org/obo/OBI_0600014	false
+OBI_0600016	pooling specimens	physical combination of several instances of like material	sample pooling	http://purl.obolibrary.org/obo/OBI_0600016	false
+OBI_0600018	material portioning	a material processing in which the input substance is partitioned into a number of portions that are similar in composition.	aliquoting,apportioning	http://purl.obolibrary.org/obo/OBI_0600018	false
+OBI_0600036	establishing cell culture	establishing a cell culture is a process which results in creating an in vitro environment in which cells are sustained from input material containing cells. input: cell-containing material, output cell culture, part of cell culturing. Cells are originally plated at a certain concentration referred to as seeding density.		http://purl.obolibrary.org/obo/OBI_0600036	false
+OBI_0600052	dialysis	a protocol application that uses diffusion through a semi-permeable membrane to separate an input material into two fractions of different composition		http://purl.obolibrary.org/obo/OBI_0600052	false
+OGMS_0000015	clinical history	A series of statements representing health-relevant qualities of a patient and of a patient's family.		http://purl.obolibrary.org/obo/OGMS_0000015	false
+OGMS_0000023	phenotype	A (combination of) quality(ies) of an organism determined by the interaction of its genetic make-up and environment that differentiates specific instances of a species from other instances of the same species.		http://purl.obolibrary.org/obo/OGMS_0000023	false
+PATO_0000047	biological sex	An organismal quality inhering in a bearer by virtue of the bearer's ability to undergo sexual reproduction in order to differentiate the individuals or types involved.		http://purl.obolibrary.org/obo/PATO_0000047	false
+PATO_0000117	size	A morphology quality inhering in a bearer by virtue of the bearer's physical magnitude.		http://purl.obolibrary.org/obo/PATO_0000117	false
+PATO_0000119	height	A 1-D extent quality inhering in a bearer by virtue of the bearer's vertical dimension of extension.		http://purl.obolibrary.org/obo/PATO_0000119	false
+PATO_0000128	weight	A physical quality inhering in a bearer that has mass near a gravitational body.		http://purl.obolibrary.org/obo/PATO_0000128	false
+PATO_0000918	volume	A 3-D extent quality inhering in a bearer by virtue of the bearer's amount of 3-dimensional space it occupies.		http://purl.obolibrary.org/obo/PATO_0000918	false
+PATO_0001018	physical quality	A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities.		http://purl.obolibrary.org/obo/PATO_0001018	false
+PATO_0001241	physical object quality	A quality which inheres in a continuant.		http://purl.obolibrary.org/obo/PATO_0001241	false
+PATO_0001985	frozen	A quality inhering in a bearer by virtue of the bearer's being kept below its freezing point.		http://purl.obolibrary.org/obo/PATO_0001985	false
+RO_0001000	derives from			http://purl.obolibrary.org/obo/RO_0001000	false
+UBERON_0000178	blood	Circulating body substance which consists of blood plasma and hemoglobin-carrying red blood cells. Excludes blood analogues (see UBERON:0000179 haemolymphatic fluid).		http://purl.obolibrary.org/obo/UBERON_0000178	false
+UO_0000003	time unit	A unit which is a standard measure of the dimension in which events occur in sequence.		http://purl.obolibrary.org/obo/UO_0000003	false
+class_0138	pipe tobacco			http://purl.obolibrary.org/obo/biobank.owl/class_0138	false
+class_0139	tobacco			http://purl.obolibrary.org/obo/biobank.owl/class_0139	false
+class_0140	tobacco material		tobacco product	http://purl.obolibrary.org/obo/biobank.owl/class_0140	false
+http://purl.obolibrary.org/obo/cl#lacks_part	lacks_part			http://purl.obolibrary.org/obo/cl#lacks_part	false
+http://vivoweb.org/ontology/core#Laboratory	Laboratory	An organizational unit (as opposed to the physical facility) that performs research, provides services, or processes materials		http://vivoweb.org/ontology/core#Laboratory	false
+http://vivoweb.org/ontology/core#Laboratory	Laboratory	An organizational unit (as opposed to the physical facility) that performs research, provides services, or processes materials		http://vivoweb.org/ontology/core#Laboratory	false
+EFO_0004318	smoking behavior		smoking	http://www.ebi.ac.uk/efo/EFO_0004318	false
+EFO_0004774	chewing tobacco behavior			http://www.ebi.ac.uk/efo/EFO_0004774	false
+http://www.w3.org/2002/07/owl#Thing	Thing			http://www.w3.org/2002/07/owl#Thing	false
+http://www.w3.org/2002/07/owl#topObjectProperty	topObjectProperty			http://www.w3.org/2002/07/owl#topObjectProperty	false
+subClassOf	is a			rdfs:subClassOf	false
