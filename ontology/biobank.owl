@@ -47,6 +47,130 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000119"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;seeAlso"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
+
+    <rdfs:Datatype rdf:about="&rdf;PlainLiteral"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Literal -->
+
+    <rdfs:Datatype rdf:about="&rdfs;Literal"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#float -->
+
+    <rdfs:Datatype rdf:about="&xsd;float"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#integer -->
+
+    <rdfs:Datatype rdf:about="&xsd;integer"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#nonNegativeInteger -->
+
+    <rdfs:Datatype rdf:about="&xsd;nonNegativeInteger"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+    <rdfs:Datatype rdf:about="&xsd;string"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Object Properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -59,6 +183,8 @@
 
     <owl:ObjectProperty rdf:about="&obo;BIOBANK_0000037">
         <rdfs:label xml:lang="en">has maximum capacity</rdfs:label>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <rdfs:range rdf:resource="&obo;IAO_0000109"/>
         <rdfs:domain rdf:resource="&obo;OBI_0000967"/>
     </owl:ObjectProperty>
@@ -69,6 +195,8 @@
 
     <owl:ObjectProperty rdf:about="&obo;BIOBANK_0000038">
         <rdfs:label xml:lang="en">has actual load</rdfs:label>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <rdfs:range rdf:resource="&obo;IAO_0000109"/>
         <rdfs:domain rdf:resource="&obo;OBI_0000967"/>
     </owl:ObjectProperty>
@@ -98,6 +226,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A device that is part of a freezer and consists of a solid horizontal surface to keep material in the freezer on a flat surface aimming to prevent its movement.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -129,7 +259,9 @@
                 <owl:someValuesFrom rdf:resource="&obo;BFO_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <obo:IAO_0000115>A planned process that get rid of a material that is no longer useful or desirable.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -140,6 +272,8 @@
         <rdfs:label xml:lang="en">human subject recuiter role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000116"/>
         <obo:IAO_0000115>A worker role of recruiting human subject to partcipate clinical investigation in which data about human subject is collected. </obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -156,6 +290,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A device that is intended to hold cryovials.</obo:IAO_0000115>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -172,6 +308,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A container that is used to keep material that will not be used in the investigation.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -187,7 +325,9 @@
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0000399"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <obo:IAO_0000115>A device that is part of a freezer for keeping material in the freezer in a defined position and prevented in its movement.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -203,7 +343,9 @@
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0000370"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000115>A device that contains blood spot cards.</obo:IAO_0000115>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -213,7 +355,9 @@
     <owl:Class rdf:about="&obo;BIOBANK_0000017">
         <rdfs:label xml:lang="en">data confirm questionnaire</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0001000"/>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000115>A questionnaire that comprises a set of questions about patient, such as height, weight, race, biological sex, clinical history, etc., will be filled by the recruiter based on Electronic Medical Record (EMR).</obo:IAO_0000115>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -223,6 +367,8 @@
     <owl:Class rdf:about="&obo;BIOBANK_0000018">
         <rdfs:label xml:lang="en">form filling</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0302908"/>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000115>A document editing in which one or more fields in a form are filled with related information, such as answering questionnare.</obo:IAO_0000115>
     </owl:Class>
     
@@ -263,7 +409,9 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000115>A patient questionnaire which is output of a form filling process that has participant, patient.</obo:IAO_0000115>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -273,6 +421,8 @@
     <owl:Class rdf:about="&obo;BIOBANK_0000020">
         <rdfs:label xml:lang="en">patient questionnaire</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0001000"/>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000115>A questionnaire that comprises a set of questions about patient, such as height, weight, race, biological sex, clinical history, etc., will be filled by the human subject.</obo:IAO_0000115>
     </owl:Class>
     
@@ -314,6 +464,8 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000115>A collection packet which contains container with collected specimen and material carries information about the collected specimen and specimen source.</obo:IAO_0000115>
     </owl:Class>
     
@@ -324,6 +476,8 @@
     <owl:Class rdf:about="&obo;BIOBANK_0000022">
         <rdfs:label xml:lang="en">blood additive role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000319"/>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000115>A material to be added role is beared by chemical entity that is added into a blood collection containter to optimize specific blood component(s) preservation and/or separation.</obo:IAO_0000115>
     </owl:Class>
     
@@ -335,6 +489,8 @@
         <rdfs:label xml:lang="en">lab technician role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000116"/>
         <obo:IAO_0000115>A worker role that performs the practical hands-on work in laboratories and is realized during study design execution.</obo:IAO_0000115>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -361,6 +517,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A collection packet which contains container with collected specimen.</obo:IAO_0000115>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -383,6 +541,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A collection packet which only contains container that will be used for holding specimen</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -423,6 +583,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A data confirm questionnaire which is output of a form filling process that has participant, human subject recruiter.</obo:IAO_0000115>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -438,6 +600,8 @@
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0000967"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <obo:IAO_0000115>A material entity used for specimen collection. It can contain some container to hold specimen, specimen, and material (e.g. paper) carrying information of specimen and specimen source (e.g. patient).</obo:IAO_0000115>
     </owl:Class>
     
@@ -461,6 +625,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A device that is made to collect, ship and store blood specimen in an easy and inexpensive way.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -470,7 +636,9 @@
     <owl:Class rdf:about="&obo;BIOBANK_0000031">
         <rdfs:label xml:lang="en">cryovial</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000836"/>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
         <obo:IAO_0000115>A test tube that designed to store materials at very low temperatures.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -481,6 +649,7 @@
         <rdfs:label xml:lang="en">vacutainer</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000836"/>
         <obo:IAO_0000115>A test tube which is either a sterile glass or plastic tube with a closure that is evacuated to create a vacuum inside the tube facilitating the draw of a predetermined volume of liquid. Most commonly used to draw a blood sample directly from the vein, these also are used to collect urine samples. Vacutainer tube may contain additives designed to stabilize and preserve the specimen prior to analytical testing.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.wikipedia.org/wiki/Vacutainer</obo:IAO_0000119>
     </owl:Class>
     
@@ -508,6 +677,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A planned process that specimens in a packet are received in the lab.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -547,7 +718,9 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000115>An adding a material entity into a target where a collected specimen is added to a specimen container. (note, not used for other specimen process that produce new specimens)</obo:IAO_0000115>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -559,17 +732,19 @@
         <rdfs:subClassOf rdf:resource="&obo;BIOBANK_0000034"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000030"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0000655"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>A collecting specimen from organism that collects blood from organism and spot the blood on the blood spot card.</obo:IAO_0000115>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -595,6 +770,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119>http://en.wikipedia.org/wiki/Buffy_coat</obo:IAO_0000119>
         <obo:IAO_0000115>a processed specimen which is output of density gradient centrifugation of an anticoagulated blood specimen that contains most of the white blood cells and platelets. </obo:IAO_0000115>
     </owl:Class>
@@ -608,17 +784,19 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000655"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
-                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000035"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;BFO_0000082"/>
                 <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <rdfs:comment>A specimen that located in a blood spot card via blood spotting process.</rdfs:comment>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -656,6 +834,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>An empty collection packet which contains container without specimen and material carries unfilled form that will be used to fill information about specimen to be collected.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -665,6 +845,8 @@
     <owl:Class rdf:about="&obo;BIOBANK_0000041">
         <rdfs:label xml:lang="en">duration time of smoking regularly</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BIOBANK_0000053"/>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -680,6 +862,8 @@
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0200170"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -695,6 +879,8 @@
                 <owl:someValuesFrom rdf:resource="&obo;CHEBI_18723"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Nicotine_patch</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -706,16 +892,18 @@
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000047"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;CHEBI_18723"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0001000"/>
                 <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_18723"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Cigarette</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -731,6 +919,8 @@
                 <owl:someValuesFrom rdf:resource="&obo;CHEBI_18723"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Nicotine_gum</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -752,6 +942,8 @@
                 <owl:someValuesFrom rdf:resource="&obo;CHEBI_18723"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Cigar</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -767,6 +959,8 @@
                 <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Chewing_tobacco</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -787,7 +981,9 @@
             </owl:Class>
         </owl:equivalentClass>
         <obo:IAO_0000115>A processed materialmaterial entity that contains nicotine.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000118>nicotine product</obo:IAO_0000118>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -803,6 +999,8 @@
                 <owl:someValuesFrom rdf:resource="&obo;OBI_0000370"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Smoking_pipe</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -818,6 +1016,8 @@
                 <owl:someValuesFrom rdf:resource="&obo;CHEBI_18723"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Electronic_cigarette</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -833,6 +1033,8 @@
                 <owl:someValuesFrom rdf:resource="&efo;EFO_0004318"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -844,16 +1046,18 @@
         <rdfs:subClassOf rdf:resource="&efo;EFO_0004318"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
-                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000049"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
                 <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000049"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -869,6 +1073,8 @@
                 <owl:someValuesFrom rdf:resource="&efo;EFO_0004318"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -884,6 +1090,8 @@
                 <owl:someValuesFrom rdf:resource="&efo;EFO_0004318"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -899,6 +1107,8 @@
                 <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000056"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -908,6 +1118,8 @@
     <owl:Class rdf:about="&obo;BIOBANK_0000056">
         <rdfs:label xml:lang="en">tobacco</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_2759"/>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -927,7 +1139,9 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000118>tobacco product</obo:IAO_0000118>
+        <obo:IAO_0000119>Penn Group</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -963,8 +1177,8 @@
     <rdf:Description rdf:about="&obo;ERO_0000979">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000085"/>
-                <owl:someValuesFrom rdf:resource="&obo;OBI_0000370"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -975,8 +1189,8 @@
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="&obo;BIOBANK_0000015"/>
+                <owl:onProperty rdf:resource="&obo;BFO_0000085"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000370"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
@@ -1090,13 +1304,13 @@
     <rdf:Description rdf:about="&obo;OBI_0000967">
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BIOBANK_0000038"/>
+                <owl:onProperty rdf:resource="&obo;BIOBANK_0000037"/>
                 <owl:someValuesFrom rdf:resource="&obo;IAO_0000109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BIOBANK_0000037"/>
+                <owl:onProperty rdf:resource="&obo;BIOBANK_0000038"/>
                 <owl:someValuesFrom rdf:resource="&obo;IAO_0000109"/>
             </owl:Restriction>
         </rdfs:subClassOf>
