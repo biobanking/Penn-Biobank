@@ -4,6 +4,6 @@
 
 For integration of Biobank ontology with OMIABIS ontology, the 'term editor' and 'definition source' should be provided to Biobank specific terms to track the resource of the terms. 
 
-Over 50 Biobank ontology specific terms need to be edited. It is time consuming and error-prone. Ontorat is used to add these annotations automatically. The Ontorat output OWL file is imported and merged to Biobank ontology. See BioBank ontology revision 30. 
+Over 50 Biobank ontology specific terms need to be edited. It is time consuming and error-prone. Ontorat is used to add these annotations automatically. The Ontorat output OWL file is imported and merged to Biobank ontology. See Biobank ontology SVN revision 30. 
 
 Ontorat input and output files are available under [https://biobank-ontology.googlecode.com/svn/trunk/doc/ontoRat_doc/]
